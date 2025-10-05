@@ -1,0 +1,22 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_011.png
+File Type: .png
+Processing Date: 2025-10-05T16:11:40.273773
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+oe
+Check for a Duo Push
+Verify it's you by approving the notification...
+Sent to "Android" ( 1311)
+om 8
+Other options
+Need help?
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 0

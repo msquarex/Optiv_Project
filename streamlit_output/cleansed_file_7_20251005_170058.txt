@@ -1,0 +1,62 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_007.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.763435
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+CLIENT_ORGANIZATION
+restroom |
+R *|
+Hallway
+Break Room Reception
+Badge-only
+Entry
+Emergency
+Exit
+(@@ RESTRICTED SECURITY 2ONE —> Path of access
+[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the floor plan you provided:
+
+**Key Areas:**
+
+*   **Server Room:** Located in the upper right corner, highlighted in red.
+*   **CLIENT_ORGANIZATION:**  Also in the upper right corner, adjacent to the server room.
+*   **Reception/Badge-Only Entry:** This is the main entrance point, requiring a badge for access.
+*   **Visitor Check-in:**  A designated area for visitors to register.
+*   **Break Room:** Located to the left of the reception area.
+*   **Offices:** Multiple offices are scattered throughout the space.
+*   **Restrooms:** Two restrooms are available.
+
+**Security Features:**
+
+*   Security cameras are positioned strategically throughout the building, particularly around entrances and key areas.
+
+**Other Notes:**
+
+*   The floor plan indicates a "Security Zone" and a "Path of Access" to guide movement and security protocols.
+*   An emergency exit is clearly marked.
+
+Do you have any specific questions about the layout or want me to point out a particular feature?
+
+Model: gemma3:4b
+Processing time: 53.01s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 3
+
+Detected Items:
+- Type: nrp
+  Original: SECURITYCAMERA
+  Masked: MASKED
+- Type: client_info
+  Original: Confidential Archive
+  Masked: CLIENT_ORGANIZATION
+- Type: client_info
+  Original: Server Room Confidential
+Archive
+  Masked: CLIENT_ORGANIZATION

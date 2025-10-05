@@ -1,0 +1,72 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_003.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.759436
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+VISITORS LOG BOOK - PLEASE SIGN IN
+MONTH: MAYch
+YEAR: 2023
+ol
+DATE
+XX/XX/XXXX
+PERSON_NAME
+Sales Demo
+REASON FOR VISIT
+02
+XX/XX/XXXX
+PERSON_NAME James ttodden|
+\
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's the information extracted from the image of the visitor log book:
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Sales Demo
+*   **Time In:** 10:25 am
+*   **Time Out:** 11:35 am
+*   **Initials:** K. Hopkins
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Meeting PERSON_NAME
+
+Model: gemma3:4b
+Processing time: 47.76s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 9
+
+Detected Items:
+- Type: date_time
+  Original: 22/03/23
+  Masked: XX/XX/XXXX
+- Type: date_time
+  Original: 22/03/2023
+  Masked: XX/XX/XXXX
+- Type: date_time
+  Original: 22/03/2023
+  Masked: XX/XX/XXXX
+- Type: person
+  Original: Kate Hopkins
+  Masked: PERSON_NAME
+- Type: person
+  Original: Kelly Van Stom
+Meeting
+  Masked: PERSON_NAME
+- Type: person
+  Original: Kate Hopkins
+  Masked: PERSON_NAME
+- Type: person
+  Original: Kelly Van Storm
+  Masked: PERSON_NAME
+- Type: person
+  Original: James Hodden
+  Masked: PERSON_NAME
+- Type: date_time
+  Original: 22/03/23
+  Masked: XX/XX/XXXX

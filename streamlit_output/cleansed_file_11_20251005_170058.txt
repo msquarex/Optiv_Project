@@ -1,0 +1,37 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_011.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.769609
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+oe
+Check for a Duo Push
+Verify it's you by approving the notification...
+Sent to "Android" ( 1311)
+om 8
+Other options
+Need help?
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, here's what the image shows:
+
+**It's a Duo Push notification.**
+
+**What it's asking you to do:**
+
+*   **Approve the notification:**  It's prompting you to tap the "Approve" button to complete the Duo push authentication.
+
+**Important information:**
+
+*   **Message:** It's sent to "Android" (with a placeholder for the actual code, which is likely a series of numbers and letters). You need to enter this code into the Duo app on your phone to complete the authentication.
+
+Let me know if you have any other questions about Duo or this notification!
+
+Model: gemma3:4b
+Processing time: 49.77s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 0

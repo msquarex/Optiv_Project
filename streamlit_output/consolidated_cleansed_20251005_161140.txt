@@ -1,0 +1,125 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+CONSOLIDATED CLEANSED OUTPUT
+==================================================
+Generated: 2025-10-05T16:11:40.274738
+Total Files Processed: 4
+
+FILE 1: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_007.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+CLIENT_ORGANIZATION
+restroom |
+R *|
+Hallway
+Break Room Reception
+Badge-only
+Entry
+Emergency
+Exit
+(@@ RESTRICTED SECURITY 2ONE —> Path of access
+[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+==================================================
+
+FILE 2: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_009.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+“GroupName": "Test-Group",
+“PolicyDocument": {
+"Statement": [
+{
+"Action": [
+'53:Get*",
+**:List®
+1,
+“Resource”: "*",
+"Effect": "Allow"
+ay
+"PolicyName": "**-ReadOnly-Policy”
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+==================================================
+
+FILE 3: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_010.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+Rule name
+default-
+allow-
+internal
+default-
+allow-ssh
+default-
+allow-rdp
+default-
+allow-icmp
+Direction
+ingress
+ingress
+ingress
+ingress
+Priority
+XXXXX
+XXXXX
+XXXXX
+XXXXX
+Source ranges
+XXX.XXX.XXX.XXX/9
+XXX.XXX.XXX.XXX/8
+XXX.XXX.XXX.XXX/8
+XXX.XXX.XXX.XXX/8
+Action
+allow
+allow
+allow
+allow
+Protocols and ports
+tcep:8-XXXXX
+udp :8-XXXXX
+icmp
+tep:22
+tep:3389
+icmp
+Description
+Permits incoming
+connections to VM
+instances from other
+instances within the
+same VPC network.
+Lets you connect to
+instances with tools
+such as ssh, scp, or
+sftp.
+Lets you connect to
+instances using the
+Microsoft Remote
+Desktop Protocol (RDP).
+Lets you use tools such
+as ping.
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+==================================================
+
+FILE 4: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_011.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+oe
+Check for a Duo Push
+Verify it's you by approving the notification...
+Sent to "Android" ( 1311)
+om 8
+Other options
+Need help?
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+==================================================
+

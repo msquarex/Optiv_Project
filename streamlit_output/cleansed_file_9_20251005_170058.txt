@@ -1,0 +1,92 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_009.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.767611
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+“GroupName": "Test-Group",
+“PolicyDocument": {
+"Statement": [
+{
+"Action": [
+'53:Get*",
+**:List®
+1,
+“Resource”: "*",
+"Effect": "Allow"
+ay
+"PolicyName": "**-ReadOnly-Policy”
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the JSON data you provided, representing an AWS IAM policy:
+
+**Overall Structure**
+
+This JSON defines an *** policy, which is a set of permissions that can be attached to IAM users, groups, or roles.
+
+**Key Components:**
+
+*   **`GroupName`**:  "Test-Group" - This indicates the IAM group to which this policy will be assigned.
+*   **`PolicyDocument`**:  This is the core of the policy, containing the actual permissions.
+    *   **`Statement`**:  An array of statements. Each statement defines a specific permission. In this case, there's only one statement.
+        *   **`Action`**:  `["**:Get*","**:List*"]` - This is the action that the policy allows.
+            *   `**:Get*`:  Allows the user/role to perform any `Get` operations on ** buckets and objects.  The `*` is a wildcard, meaning it covers all `Get` actions (e.g., `GetBucketAcl`, `GetObject`, `GetBucketLocation`).
+            *   `**:List*`: Allows the user/role to perform any `List` operations on ** buckets and objects. The `*` wildcard covers all `List` actions (e.g., `ListBucket`, `ListObjects`).
+    *   **`Resource`**: `"*" ` - This specifies the resources to which the policy applies.  `"*"` means the policy applies to all ** resources.
+    *   **`Effect`**: `"Allow"` - This determines how the policy is evaluated.  `"Allow"` means that if the conditions in the statement are met, the action is granted.
+
+*   **`PolicyName`**: `"**-ReadOnly-Policy"` - This is the name you assign to the policy.
+
+**In summary, this policy grants read-only access to all ** resources.** The user or role to which this policy is attached will be able to list and retrieve ** objects but cannot perform actions like uploading, deleting, or modifying objects.
+
+Let me know if you'd like me to elaborate on any specific aspect of this policy or explain how it relates to AWS IAM!
+
+Model: gemma3:4b
+Processing time: 62.70s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 13
+
+Detected Items:
+- Type: nrp
+  Original: IAM
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED

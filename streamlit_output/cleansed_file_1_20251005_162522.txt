@@ -1,0 +1,43 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmpd___n6i_\File_003.png
+File Type: .png
+Processing Date: 2025-10-05T16:25:22.110037
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+VISITORS LOG BOOK - PLEASE SIGN IN
+MONTH: MAYch
+YEAR: 2023
+ol
+DATE
+XX/XX/XXXX
+PERSON_NAME
+Sales Demo
+REASON FOR VISIT
+02
+XX/XX/XXXX
+PERSON_NAME James ttodden|
+\
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 4
+
+Detected Items:
+- Type: date_time
+  Original: 22/03/23
+  Masked: XX/XX/XXXX
+- Type: person
+  Original: Kate Hopkins
+  Masked: PERSON_NAME
+- Type: person
+  Original: Kelly Van Stom
+Meeting
+  Masked: PERSON_NAME
+- Type: date_time
+  Original: 22/03/23
+  Masked: XX/XX/XXXX

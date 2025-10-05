@@ -1,0 +1,35 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+EXTRACTED TEXT VERIFICATION
+============================================================
+Generated: 2025-10-05T16:18:16.699940
+Total Files Processed: 1
+
+FILE 1: C:\Users\HP\AppData\Local\Temp\tmp5612ym4j\File_003.png
+--------------------------------------------------
+File Type: .png
+Processing Status: success
+Content Length: 258 characters
+
+EXTRACTED CONTENT:
+==============================
+=== OCR EXTRACTED TEXT ===
+VISITORS LOG BOOK - PLEASE SIGN IN
+MONTH: MAYch
+YEAR: 2023
+ol
+DATE
+22/03/23
+Kate Hopkins
+Sales Demo
+REASON FOR VISIT
+02
+22/03/23
+Kelly Van Stom
+Meeting James ttodden|
+\
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+============================================================
+

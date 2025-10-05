@@ -1,0 +1,64 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_004.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.760438
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+CERTIFICATE OF
+Data Destruction
+This certifies that the following data and associated digital files have
+been permanently destroyed in compliance with data protection
+regulations and security standards:
+Type of CLIENT_ORGANIZATION:
+Confidential client data, backup files, and encrypted records
+Quantity Destroyed:
+1,000 GB of data
+Destruction Method:
+Secure data wiping and physical destruction of storage devices
+The above data has been irreversibly destroyed to
+prevent unauthorized access and ensure compliance
+with privacy laws.
+PERSON_NAME
+Data Security Officer
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the information presented in the image:
+
+**Certificate of Data Destruction**
+
+*   **Type of CLIENT_ORGANIZATION:** Confidential client data, backup files, and encrypted records.
+*   **Quantity Destroyed:** 1,000 LOCATION_NAME of data.
+*   **Destruction Method:** Secure data wiping and physical destruction of storage devices.
+*   **Statement:** The above data has been irreversibly destroyed to prevent unauthorized access and ensure compliance with privacy laws.
+*   **Data Security Officer:** PERSON_NAME**In essence, this document confirms the secure and permanent removal of 1,000 LOCATION_NAME of sensitive data using a combination of data wiping and physical destruction of storage devices, all in accordance with privacy regulations.**
+
+Model: gemma3:4b
+Processing time: 49.33s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 6
+
+Detected Items:
+- Type: person
+  Original: Javier Jacobs
+  Masked: PERSON_NAME
+- Type: location
+  Original: GB
+  Masked: LOCATION_NAME
+- Type: person
+  Original: Javier Jacobs
+
+
+  Masked: PERSON_NAME
+- Type: location
+  Original: GB
+  Masked: LOCATION_NAME
+- Type: client_info
+  Original: Data Destroyed
+  Masked: CLIENT_ORGANIZATION
+- Type: client_info
+  Original: Data Destroyed
+  Masked: CLIENT_ORGANIZATION

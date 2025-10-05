@@ -1,0 +1,35 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_007.png
+File Type: .png
+Processing Date: 2025-10-05T16:11:40.270235
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+CLIENT_ORGANIZATION
+restroom |
+R *|
+Hallway
+Break Room Reception
+Badge-only
+Entry
+Emergency
+Exit
+(@@ RESTRICTED SECURITY 2ONE —> Path of access
+[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 2
+
+Detected Items:
+- Type: nrp
+  Original: SECURITYCAMERA
+  Masked: MASKED
+- Type: client_info
+  Original: Server Room Confidential
+Archive
+  Masked: CLIENT_ORGANIZATION

@@ -1,0 +1,41 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+SECURITY ANALYSIS REPORT
+==================================================
+Generated: 2025-10-05T16:11:40.276006
+
+ANALYSIS 1
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 2
+--------------------
+Summary:
+  - Found 1 IAM policy statements
+
+Detailed Findings:
+
+IAM Policies Found: 1
+  - "Effect": "Allow"
+
+==================================================
+
+ANALYSIS 3
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 4
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+

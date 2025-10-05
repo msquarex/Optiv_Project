@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-05T15:59:55.024398",
+    "total_files": 1,
+    "project": "VIT Campus Connect - Cyber Simulation Exercise"
+  },
+  "processing_results": [
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxha99rt3\\File_014.pptx",
+      "file_type": ".pptx",
+      "content": "Slide 1:\nNetwork Topology Diagram\nInternal Team Reviews and Updates\n\n------------------------------\n\nSlide 2:\n\n------------------------------\n\nSlide 3:\nRevision History\nTable:\nRevision | Full Name | Email | Reviewed Date | Changes Made (If Any)\n1.0 | Sarah Thompson | sarah.thompson@cadence.com | 2023-06-01 | Initial draft of network topology diagram created.\n1.1 | Michael Chen | m.chen@cadence.com | 2023-12-03 | Updated IP addressing scheme and VLAN assignments.\n1.2 | Aisha Rahman | aisha.rahman@cadence.com | 2024-05-07 | No changes. Reviewed and approved existing diagram.\n1.3 | Priya Desai | priya.desai@cadence.com | 2024-10-15 | No changes. Confirmed compliance with updated security policies.\n\n------------------------------\n",
+      "status": "success"
+    }
+  ],
+  "pii_results": [
+    {
+      "original_text": "Slide 1:\nNetwork Topology Diagram\nInternal Team Reviews and Updates\n\n------------------------------\n\nSlide 2:\n\n------------------------------\n\nSlide 3:\nRevision History\nTable:\nRevision | Full Name | Email | Reviewed Date | Changes Made (If Any)\n1.0 | Sarah Thompson | sarah.thompson@cadence.com | 2023-06-01 | Initial draft of network topology diagram created.\n1.1 | Michael Chen | m.chen@cadence.com | 2023-12-03 | Updated IP addressing scheme and VLAN assignments.\n1.2 | Aisha Rahman | aisha.rahman@cadence.com | 2024-05-07 | No changes. Reviewed and approved existing diagram.\n1.3 | Priya Desai | priya.desai@cadence.com | 2024-10-15 | No changes. Confirmed compliance with updated security policies.\n\n------------------------------\n",
+      "masked_text": "Slide 1:\nCLIENT_ORGANIZATION and LOCATION_NAME\n\n------------------------------\n\nSlide 2:\n\n------------------------------\n\nSlide 3:\nRevision History\nTable:\nRevision | Full Name | Email | Reviewed Date | Changes Made (If Any)\n1.0 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Initial draft of network topology diagram created.\n1.1 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Updated IP addressing scheme and VLAN assignments.\n1.2 | Aisha Rahman | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Reviewed and approved existing diagram.\n1.3 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Confirmed compliance with updated security policies.\n\n------------------------------\n",
+      "detected_items": [
+        {
+          "type": "email_address",
+          "subtype": "EMAIL_ADDRESS",
+          "original": "sarah.thompson@cadence.com",
+          "masked": "XXXX@XXXX.XXX",
+          "position": [
+            268,
+            294
+          ],
+          "confidence": 1.0
+        },
+        {
+          "type": "email_address",
+          "subtype": "EMAIL_ADDRESS",
+          "original": "m.chen@cadence.com",
+          "masked": "XXXX@XXXX.XXX",
+          "position": [
+            382,
+            400
+          ],
+          "confidence": 1.0
+        },
+        {
+          "type": "email_address",
+          "subtype": "EMAIL_ADDRESS",
+          "original": "aisha.rahman@cadence.com",
+          "masked": "XXXX@XXXX.XXX",
+          "position": [
+            488,
+            512
+          ],
+          "confidence": 1.0
+        },
+        {
+          "type": "email_address",
+          "subtype": "EMAIL_ADDRESS",
+          "original": "priya.desai@cadence.com",
+          "masked": "XXXX@XXXX.XXX",
+          "position": [
+            600,
+            623
+          ],
+          "confidence": 1.0
+        },
+        {
+          "type": "location",
+          "subtype": "LOCATION",
+          "original": "Updates",
+          "masked": "LOCATION_NAME",
+          "position": [
+            60,
+            67
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Sarah Thompson",
+          "masked": "PERSON_NAME",
+          "position": [
+            251,
+            265
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "2023-06-01",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            297,
+            307
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Michael Chen",
+          "masked": "PERSON_NAME",
+          "position": [
+            367,
+            379
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "2023-12-03",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            403,
+            413
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "2024-05-07",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            515,
+            525
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Priya Desai",
+          "masked": "PERSON_NAME",
+          "position": [
+            586,
+            597
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "2024-10-15",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            626,
+            636
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "sarah.th",
+          "masked": "MASKED",
+          "position": [
+            268,
+            276
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "cadence.com",
+          "masked": "MASKED",
+          "position": [
+            283,
+            294
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "m.ch",
+          "masked": "MASKED",
+          "position": [
+            382,
+            386
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "cadence.com",
+          "masked": "MASKED",
+          "position": [
+            389,
+            400
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "cadence.com",
+          "masked": "MASKED",
+          "position": [
+            501,
+            512
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "priya.de",
+          "masked": "MASKED",
+          "position": [
+            600,
+            608
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "url",
+          "subtype": "URL",
+          "original": "cadence.com",
+          "masked": "MASKED",
+          "position": [
+            612,
+            623
+          ],
+          "confidence": 0.5
+        },
+        {
+          "type": "client_info",
+          "subtype": "organization",
+          "original": "Network Topology Diagram\nInternal Team Reviews",
+          "masked": "CLIENT_ORGANIZATION",
+          "position": [
+            9,
+            55
+          ]
+        }
+      ],
+      "detection_count": 20,
+      "status": "success"
+    }
+  ],
+  "analysis_results": [
+    {
+      "text": "Slide 1:\nCLIENT_ORGANIZATION and LOCATION_NAME\n\n------------------------------\n\nSlide 2:\n\n------------------------------\n\nSlide 3:\nRevision History\nTable:\nRevision | Full Name | Email | Reviewed Date | Changes Made (If Any)\n1.0 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Initial draft of network topology diagram created.\n1.1 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Updated IP addressing scheme and VLAN assignments.\n1.2 | Aisha Rahman | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Reviewed and approved existing diagram.\n1.3 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Confirmed compliance with updated security policies.\n\n------------------------------\n",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [],
+          "actions": [],
+          "protocols": [
+            {
+              "protocol": "Any",
+              "position": [
+                219,
+                222
+              ]
+            },
+            {
+              "protocol": "IP",
+              "position": [
+                381,
+                383
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "1",
+              "position": [
+                6,
+                7
+              ]
+            },
+            {
+              "port": "2",
+              "position": [
+                86,
+                87
+              ]
+            },
+            {
+              "port": "3",
+              "position": [
+                128,
+                129
+              ]
+            },
+            {
+              "port": "Any",
+              "position": [
+                219,
+                222
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                224,
+                225
+              ]
+            },
+            {
+              "port": "0",
+              "position": [
+                226,
+                227
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                324,
+                325
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                326,
+                327
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                424,
+                425
+              ]
+            },
+            {
+              "port": "2",
+              "position": [
+                426,
+                427
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                526,
+                527
+              ]
+            },
+            {
+              "port": "3",
+              "position": [
+                528,
+                529
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 0,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": []
+        }
+      },
+      "status": "success"
+    }
+  ],
+  "llm_analysis_results": [
+    {
+      "status": "success",
+      "file_name": "File_014",
+      "file_type": ".pptx",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpxha99rt3\\File_014.pptx",
+      "file_description": "This file is a PowerPoint presentation, likely documenting a network topology diagram and its revision history. It appears to be related to a client organization's network infrastructure, with details on location and revisions made to the diagram. The document contains a basic revision log, but lacks specific details about the network itself.",
+      "key_findings": [
+        "Potential Access Control Vulnerability: The file itself is a simple presentation; there's no mention of access controls to the diagram or the underlying network.  The diagram's distribution and viewing permissions are unknown, representing a potential vulnerability.",
+        "Lack of Data Protection: The document contains sensitive network information (IP addresses, VLAN assignments) but doesn't detail any encryption or data loss prevention (DLP) measures. This leaves the data vulnerable to unauthorized access if the file is compromised.",
+        "Revision History - Limited Audit Trail: While the revision history provides a basic record of changes, it lacks details on *who* requested the changes and *why*.  A more robust audit trail would improve accountability and traceability.",
+        "Existing Security Feature - Compliance Review: The document explicitly mentions 'confirmation of compliance with updated security policies,' suggesting that security policies are in place and being reviewed. This indicates a proactive approach to security management.",
+        "Potential Operational Risk - Diagram Distribution: The diagram itself, if distributed widely, could expose the network topology to potential attackers.  Controlled access and restricted distribution are crucial.",
+        "Missing Authentication: The file does not mention any authentication mechanisms used to access or view the diagram.  This absence of authentication represents a significant security gap."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file is a PowerPoint presentation, likely documenting a network topology diagram and its revision history. It appears to be related to a client organization's network infrastructure, with details on location and revisions made to the diagram. The document contains a basic revision log, but lacks specific details about the network itself.\",\n    \"key_findings\": [\n        \"Potential Access Control Vulnerability: The file itself is a simple presentation; there's no mention of access controls to the diagram or the underlying network.  The diagram's distribution and viewing permissions are unknown, representing a potential vulnerability.\",\n        \"Lack of Data Protection: The document contains sensitive network information (IP addresses, VLAN assignments) but doesn't detail any encryption or data loss prevention (DLP) measures. This leaves the data vulnerable to unauthorized access if the file is compromised.\",\n        \"Revision History - Limited Audit Trail: While the revision history provides a basic record of changes, it lacks details on *who* requested the changes and *why*.  A more robust audit trail would improve accountability and traceability.\",\n        \"Existing Security Feature - Compliance Review: The document explicitly mentions 'confirmation of compliance with updated security policies,' suggesting that security policies are in place and being reviewed. This indicates a proactive approach to security management.\",\n        \"Potential Operational Risk - Diagram Distribution: The diagram itself, if distributed widely, could expose the network topology to potential attackers.  Controlled access and restricted distribution are crucial.\",\n        \"Missing Authentication: The file does not mention any authentication mechanisms used to access or view the diagram.  This absence of authentication represents a significant security gap.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T15:59:55.005018"
+    }
+  ]
+}

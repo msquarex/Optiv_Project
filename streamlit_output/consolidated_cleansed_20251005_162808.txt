@@ -1,0 +1,44 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+CONSOLIDATED CLEANSED OUTPUT
+==================================================
+Generated: 2025-10-05T16:28:08.534324
+Total Files Processed: 1
+
+FILE 1: C:\Users\HP\AppData\Local\Temp\tmpg6awx254\File_003.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+VISITORS LOG BOOK - PLEASE SIGN IN
+MONTH: MAYch
+YEAR: 2023
+ol
+DATE
+XX/XX/XXXX
+PERSON_NAME
+Sales Demo
+REASON FOR VISIT
+02
+XX/XX/XXXX
+PERSON_NAME James ttodden|
+\
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's the information from the visitor log book image:
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Sales Demo
+*   **Time In:** 10:25 am
+*   **Time Out:** 11:35 am
+*   **Sign / Initials:** K. Hopkins
+
+And another entry:
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Meeting PERSON_NAME
+
+Model: gemma3:4b
+Processing time: 72.36s
+
+==================================================
+

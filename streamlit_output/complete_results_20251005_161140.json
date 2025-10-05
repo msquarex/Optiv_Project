@@ -1,0 +1,945 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-05T16:11:40.291936",
+    "total_files": 4,
+    "project": "VIT Campus Connect - Cyber Simulation Exercise"
+  },
+  "processing_results": [
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_007.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\nServer Room Confidential\nArchive\nrestroom |\nR *|\nHallway\nBreak Room Reception\nBadge-only\nEntry\nEmergency\nExit\n(@@ RESTRICTED SECURITY 2ONE —> Path of access\n[D] EMERGENCY EXIT 8 SECURITYCAMERA —*#@_ SECURITY\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "ocr_text": "Server Room Confidential\nArchive\nrestroom |\nR *|\nHallway\nBreak Room Reception\nBadge-only\nEntry\nEmergency\nExit\n(@@ RESTRICTED SECURITY 2ONE —> Path of access\n[D] EMERGENCY EXIT 8 SECURITYCAMERA —*#@_ SECURITY",
+      "image_description": "",
+      "description_status": "skipped",
+      "description_error": "Image descriptions disabled by user",
+      "status": "success"
+    },
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_009.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\n“GroupName\": \"Test-Group\",\n“PolicyDocument\": {\n\"Statement\": [\n{\n\"Action\": [\n'53:Get*\",\ns3:List®\n1,\n“Resource”: \"*\",\n\"Effect\": \"Allow\"\nay\n\"PolicyName\": \"S3-ReadOnly-Policy”\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "ocr_text": "“GroupName\": \"Test-Group\",\n“PolicyDocument\": {\n\"Statement\": [\n{\n\"Action\": [\n'53:Get*\",\ns3:List®\n1,\n“Resource”: \"*\",\n\"Effect\": \"Allow\"\nay\n\"PolicyName\": \"S3-ReadOnly-Policy”",
+      "image_description": "",
+      "description_status": "skipped",
+      "description_error": "Image descriptions disabled by user",
+      "status": "success"
+    },
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_010.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\nRule name\ndefault-\nallow-\ninternal\ndefault-\nallow-ssh\ndefault-\nallow-rdp\ndefault-\nallow-icmp\nDirection\ningress\ningress\ningress\ningress\nPriority\n65534\n65534\n65534\n65534\nSource ranges\n10.128.8.0/9\n0.0.0.0/8\n0.0.0.0/8\n0.0.0.0/8\nAction\nallow\nallow\nallow\nallow\nProtocols and ports\ntcep:8-65535\nudp :8-65535\nicmp\ntep:22\ntep:3389\nicmp\nDescription\nPermits incoming\nconnections to VM\ninstances from other\ninstances within the\nsame VPC network.\nLets you connect to\ninstances with tools\nsuch as ssh, scp, or\nsftp.\nLets you connect to\ninstances using the\nMicrosoft Remote\nDesktop Protocol (RDP).\nLets you use tools such\nas ping.\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "ocr_text": "Rule name\ndefault-\nallow-\ninternal\ndefault-\nallow-ssh\ndefault-\nallow-rdp\ndefault-\nallow-icmp\nDirection\ningress\ningress\ningress\ningress\nPriority\n65534\n65534\n65534\n65534\nSource ranges\n10.128.8.0/9\n0.0.0.0/8\n0.0.0.0/8\n0.0.0.0/8\nAction\nallow\nallow\nallow\nallow\nProtocols and ports\ntcep:8-65535\nudp :8-65535\nicmp\ntep:22\ntep:3389\nicmp\nDescription\nPermits incoming\nconnections to VM\ninstances from other\ninstances within the\nsame VPC network.\nLets you connect to\ninstances with tools\nsuch as ssh, scp, or\nsftp.\nLets you connect to\ninstances using the\nMicrosoft Remote\nDesktop Protocol (RDP).\nLets you use tools such\nas ping.",
+      "image_description": "",
+      "description_status": "skipped",
+      "description_error": "Image descriptions disabled by user",
+      "status": "success"
+    },
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_011.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\noe\nCheck for a Duo Push\nVerify it's you by approving the notification...\nSent to \"Android\" ( 1311)\nom 8\nOther options\nNeed help?\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "ocr_text": "oe\nCheck for a Duo Push\nVerify it's you by approving the notification...\nSent to \"Android\" ( 1311)\nom 8\nOther options\nNeed help?",
+      "image_description": "",
+      "description_status": "skipped",
+      "description_error": "Image descriptions disabled by user",
+      "status": "success"
+    }
+  ],
+  "pii_results": [
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\nServer Room Confidential\nArchive\nrestroom |\nR *|\nHallway\nBreak Room Reception\nBadge-only\nEntry\nEmergency\nExit\n(@@ RESTRICTED SECURITY 2ONE —> Path of access\n[D] EMERGENCY EXIT 8 SECURITYCAMERA —*#@_ SECURITY\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\nCLIENT_ORGANIZATION\nrestroom |\nR *|\nHallway\nBreak Room Reception\nBadge-only\nEntry\nEmergency\nExit\n(@@ RESTRICTED SECURITY 2ONE —> Path of access\n[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "detected_items": [
+        {
+          "type": "nrp",
+          "subtype": "NRP",
+          "original": "SECURITYCAMERA",
+          "masked": "MASKED",
+          "position": [
+            205,
+            219
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "client_info",
+          "subtype": "organization",
+          "original": "Server Room Confidential\nArchive",
+          "masked": "CLIENT_ORGANIZATION",
+          "position": [
+            27,
+            59
+          ]
+        }
+      ],
+      "detection_count": 2,
+      "status": "success"
+    },
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\n“GroupName\": \"Test-Group\",\n“PolicyDocument\": {\n\"Statement\": [\n{\n\"Action\": [\n'53:Get*\",\ns3:List®\n1,\n“Resource”: \"*\",\n\"Effect\": \"Allow\"\nay\n\"PolicyName\": \"S3-ReadOnly-Policy”\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\n“GroupName\": \"Test-Group\",\n“PolicyDocument\": {\n\"Statement\": [\n{\n\"Action\": [\n'53:Get*\",\n**:List®\n1,\n“Resource”: \"*\",\n\"Effect\": \"Allow\"\nay\n\"PolicyName\": \"**-ReadOnly-Policy”\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "detected_items": [
+        {
+          "type": "us_driver_license",
+          "subtype": "US_DRIVER_LICENSE",
+          "original": "S3",
+          "masked": "MASKED",
+          "position": [
+            179,
+            181
+          ],
+          "confidence": 0.6499999999999999
+        },
+        {
+          "type": "us_driver_license",
+          "subtype": "US_DRIVER_LICENSE",
+          "original": "s3",
+          "masked": "MASKED",
+          "position": [
+            114,
+            116
+          ],
+          "confidence": 0.3
+        }
+      ],
+      "detection_count": 2,
+      "status": "success"
+    },
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\nRule name\ndefault-\nallow-\ninternal\ndefault-\nallow-ssh\ndefault-\nallow-rdp\ndefault-\nallow-icmp\nDirection\ningress\ningress\ningress\ningress\nPriority\n65534\n65534\n65534\n65534\nSource ranges\n10.128.8.0/9\n0.0.0.0/8\n0.0.0.0/8\n0.0.0.0/8\nAction\nallow\nallow\nallow\nallow\nProtocols and ports\ntcep:8-65535\nudp :8-65535\nicmp\ntep:22\ntep:3389\nicmp\nDescription\nPermits incoming\nconnections to VM\ninstances from other\ninstances within the\nsame VPC network.\nLets you connect to\ninstances with tools\nsuch as ssh, scp, or\nsftp.\nLets you connect to\ninstances using the\nMicrosoft Remote\nDesktop Protocol (RDP).\nLets you use tools such\nas ping.\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\nRule name\ndefault-\nallow-\ninternal\ndefault-\nallow-ssh\ndefault-\nallow-rdp\ndefault-\nallow-icmp\nDirection\ningress\ningress\ningress\ningress\nPriority\nXXXXX\nXXXXX\nXXXXX\nXXXXX\nSource ranges\nXXX.XXX.XXX.XXX/9\nXXX.XXX.XXX.XXX/8\nXXX.XXX.XXX.XXX/8\nXXX.XXX.XXX.XXX/8\nAction\nallow\nallow\nallow\nallow\nProtocols and ports\ntcep:8-XXXXX\nudp :8-XXXXX\nicmp\ntep:22\ntep:3389\nicmp\nDescription\nPermits incoming\nconnections to VM\ninstances from other\ninstances within the\nsame VPC network.\nLets you connect to\ninstances with tools\nsuch as ssh, scp, or\nsftp.\nLets you connect to\ninstances using the\nMicrosoft Remote\nDesktop Protocol (RDP).\nLets you use tools such\nas ping.\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "detected_items": [
+        {
+          "type": "ip_address",
+          "subtype": "IP_ADDRESS",
+          "original": "10.128.8.0",
+          "masked": "XXX.XXX.XXX.XXX",
+          "position": [
+            209,
+            219
+          ],
+          "confidence": 0.6
+        },
+        {
+          "type": "ip_address",
+          "subtype": "IP_ADDRESS",
+          "original": "0.0.0.0",
+          "masked": "XXX.XXX.XXX.XXX",
+          "position": [
+            222,
+            229
+          ],
+          "confidence": 0.6
+        },
+        {
+          "type": "ip_address",
+          "subtype": "IP_ADDRESS",
+          "original": "0.0.0.0",
+          "masked": "XXX.XXX.XXX.XXX",
+          "position": [
+            232,
+            239
+          ],
+          "confidence": 0.6
+        },
+        {
+          "type": "ip_address",
+          "subtype": "IP_ADDRESS",
+          "original": "0.0.0.0",
+          "masked": "XXX.XXX.XXX.XXX",
+          "position": [
+            242,
+            249
+          ],
+          "confidence": 0.6
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65534",
+          "masked": "XXXXX",
+          "position": [
+            171,
+            176
+          ]
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65534",
+          "masked": "XXXXX",
+          "position": [
+            177,
+            182
+          ]
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65534",
+          "masked": "XXXXX",
+          "position": [
+            183,
+            188
+          ]
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65534",
+          "masked": "XXXXX",
+          "position": [
+            189,
+            194
+          ]
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65535",
+          "masked": "XXXXX",
+          "position": [
+            339,
+            344
+          ]
+        },
+        {
+          "type": "zip_code",
+          "subtype": "custom_regex",
+          "original": "65535",
+          "masked": "XXXXX",
+          "position": [
+            352,
+            357
+          ]
+        }
+      ],
+      "detection_count": 10,
+      "status": "success"
+    },
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\noe\nCheck for a Duo Push\nVerify it's you by approving the notification...\nSent to \"Android\" ( 1311)\nom 8\nOther options\nNeed help?\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\noe\nCheck for a Duo Push\nVerify it's you by approving the notification...\nSent to \"Android\" ( 1311)\nom 8\nOther options\nNeed help?\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "detected_items": [],
+      "detection_count": 0,
+      "status": "success"
+    }
+  ],
+  "analysis_results": [
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\nCLIENT_ORGANIZATION\nrestroom |\nR *|\nHallway\nBreak Room Reception\nBadge-only\nEntry\nEmergency\nExit\n(@@ RESTRICTED SECURITY 2ONE —> Path of access\n[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [],
+          "actions": [],
+          "protocols": [
+            {
+              "protocol": "IP",
+              "position": [
+                238,
+                240
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                260,
+                262
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "2",
+              "position": [
+                148,
+                149
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                190,
+                191
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 0,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": []
+        }
+      },
+      "status": "success"
+    },
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\n“GroupName\": \"Test-Group\",\n“PolicyDocument\": {\n\"Statement\": [\n{\n\"Action\": [\n'53:Get*\",\n**:List®\n1,\n“Resource”: \"*\",\n\"Effect\": \"Allow\"\nay\n\"PolicyName\": \"**-ReadOnly-Policy”\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [
+            {
+              "content": "\"Effect\": \"Allow\"",
+              "position": [
+                143,
+                160
+              ]
+            }
+          ],
+          "permissions": [
+            {
+              "permission": "Allow",
+              "position": [
+                154,
+                159
+              ]
+            },
+            {
+              "permission": "Read",
+              "position": [
+                182,
+                186
+              ]
+            }
+          ],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [],
+          "actions": [
+            {
+              "action": "Allow",
+              "position": [
+                154,
+                159
+              ]
+            }
+          ],
+          "protocols": [
+            {
+              "protocol": "IP",
+              "position": [
+                215,
+                217
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                237,
+                239
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "53",
+              "position": [
+                104,
+                106
+              ]
+            },
+            {
+              "port": "1",
+              "position": [
+                123,
+                124
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [
+            {
+              "severity": "low",
+              "position": [
+                156,
+                159
+              ]
+            }
+          ],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 1,
+          "total_firewall_rules": 0,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": [
+            "Found 1 IAM policy statements"
+          ]
+        }
+      },
+      "status": "success"
+    },
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\nRule name\ndefault-\nallow-\ninternal\ndefault-\nallow-ssh\ndefault-\nallow-rdp\ndefault-\nallow-icmp\nDirection\ningress\ningress\ningress\ningress\nPriority\nXXXXX\nXXXXX\nXXXXX\nXXXXX\nSource ranges\nXXX.XXX.XXX.XXX/9\nXXX.XXX.XXX.XXX/8\nXXX.XXX.XXX.XXX/8\nXXX.XXX.XXX.XXX/8\nAction\nallow\nallow\nallow\nallow\nProtocols and ports\ntcep:8-XXXXX\nudp :8-XXXXX\nicmp\ntep:22\ntep:3389\nicmp\nDescription\nPermits incoming\nconnections to VM\ninstances from other\ninstances within the\nsame VPC network.\nLets you connect to\ninstances with tools\nsuch as ssh, scp, or\nsftp.\nLets you connect to\ninstances using the\nMicrosoft Remote\nDesktop Protocol (RDP).\nLets you use tools such\nas ping.\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [
+            {
+              "permission": "allow",
+              "position": [
+                46,
+                51
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                71,
+                76
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                90,
+                95
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                109,
+                114
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                288,
+                293
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                294,
+                299
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                300,
+                305
+              ]
+            },
+            {
+              "permission": "allow",
+              "position": [
+                306,
+                311
+              ]
+            }
+          ],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [],
+          "actions": [
+            {
+              "action": "allow",
+              "position": [
+                46,
+                51
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                71,
+                76
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                90,
+                95
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                109,
+                114
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                288,
+                293
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                294,
+                299
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                300,
+                305
+              ]
+            },
+            {
+              "action": "allow",
+              "position": [
+                306,
+                311
+              ]
+            },
+            {
+              "action": "Permit",
+              "position": [
+                396,
+                402
+              ]
+            }
+          ],
+          "protocols": [
+            {
+              "protocol": "icmp",
+              "position": [
+                115,
+                119
+              ]
+            },
+            {
+              "protocol": "udp",
+              "position": [
+                345,
+                348
+              ]
+            },
+            {
+              "protocol": "icmp",
+              "position": [
+                358,
+                362
+              ]
+            },
+            {
+              "protocol": "icmp",
+              "position": [
+                379,
+                383
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                389,
+                391
+              ]
+            },
+            {
+              "protocol": "IP",
+              "position": [
+                689,
+                691
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                711,
+                713
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "9",
+              "position": [
+                225,
+                226
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                243,
+                244
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                261,
+                262
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                279,
+                280
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                337,
+                338
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                350,
+                351
+              ]
+            },
+            {
+              "port": "22",
+              "position": [
+                367,
+                369
+              ]
+            },
+            {
+              "port": "3389",
+              "position": [
+                374,
+                378
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [
+            {
+              "severity": "low",
+              "position": [
+                48,
+                51
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                73,
+                76
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                92,
+                95
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                111,
+                114
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                290,
+                293
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                296,
+                299
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                302,
+                305
+              ]
+            },
+            {
+              "severity": "low",
+              "position": [
+                308,
+                311
+              ]
+            }
+          ],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 0,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": []
+        }
+      },
+      "status": "success"
+    },
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\noe\nCheck for a Duo Push\nVerify it's you by approving the notification...\nSent to \"Android\" ( 1311)\nom 8\nOther options\nNeed help?\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [],
+          "actions": [],
+          "protocols": [
+            {
+              "protocol": "IP",
+              "position": [
+                172,
+                174
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                194,
+                196
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "1311",
+              "position": [
+                120,
+                124
+              ]
+            },
+            {
+              "port": "8",
+              "position": [
+                129,
+                130
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 0,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": []
+        }
+      },
+      "status": "success"
+    }
+  ],
+  "llm_analysis_results": [
+    {
+      "status": "success",
+      "file_name": "File_007",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_007.png",
+      "file_description": "This file appears to be a security-related document, likely a floor plan or access control guide for a building. It outlines key areas like the restroom, hallway, and reception, with specific instructions regarding access restrictions – particularly highlighting the ‘Emergency Exit 8’ and ‘RESTRICTED SECURITY 2ONE’ path. The document’s structure suggests a focus on managing building access and potentially emergency procedures.",
+      "key_findings": [
+        "Potential Access Control Vulnerability: The explicit mention of ‘RESTRICTED SECURITY 2ONE’ and a designated ‘Path of access’ suggests a potential weakness in access control.  The document itself might be a point of vulnerability if not properly secured or controlled, allowing unauthorized individuals to understand restricted areas.",
+        "Emergency Exit Designation: The identification of ‘Emergency Exit 8’ indicates a designated evacuation route. However, the document’s presence alongside ‘RESTRICTED SECURITY 2ONE’ raises concerns about whether this exit is appropriately secured and monitored, potentially creating a bypass route.",
+        "Lack of Detailed Access Control Information: The document lacks specifics regarding access control mechanisms (e.g., card readers, biometric systems, keypads). This absence hinders a full assessment of the security posture.",
+        "Existing Security Feature: The inclusion of ‘Emergency Exit 8’ demonstrates a recognized and documented emergency evacuation procedure – a standard security measure.",
+        "Potential Policy Violation: The use of ‘RESTRICTED SECURITY 2ONE’ without further context could indicate a violation of security policies regarding restricted areas and access control.  It requires further investigation to determine if this designation is consistently applied and enforced.",
+        "Additional Finding: The document's format (a simple text overlay on an image) suggests a basic level of documentation. A more formalized security document with detailed procedures and diagrams would provide a more robust security assessment."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a security-related document, likely a floor plan or access control guide for a building. It outlines key areas like the restroom, hallway, and reception, with specific instructions regarding access restrictions – particularly highlighting the ‘Emergency Exit 8’ and ‘RESTRICTED SECURITY 2ONE’ path. The document’s structure suggests a focus on managing building access and potentially emergency procedures.\",\n    \"key_findings\": [\n        \"Potential Access Control Vulnerability: The explicit mention of ‘RESTRICTED SECURITY 2ONE’ and a designated ‘Path of access’ suggests a potential weakness in access control.  The document itself might be a point of vulnerability if not properly secured or controlled, allowing unauthorized individuals to understand restricted areas.\",\n        \"Emergency Exit Designation: The identification of ‘Emergency Exit 8’ indicates a designated evacuation route. However, the document’s presence alongside ‘RESTRICTED SECURITY 2ONE’ raises concerns about whether this exit is appropriately secured and monitored, potentially creating a bypass route.\",\n        \"Lack of Detailed Access Control Information: The document lacks specifics regarding access control mechanisms (e.g., card readers, biometric systems, keypads). This absence hinders a full assessment of the security posture.\",\n        \"Existing Security Feature: The inclusion of ‘Emergency Exit 8’ demonstrates a recognized and documented emergency evacuation procedure – a standard security measure.\",\n        \"Potential Policy Violation: The use of ‘RESTRICTED SECURITY 2ONE’ without further context could indicate a violation of security policies regarding restricted areas and access control.  It requires further investigation to determine if this designation is consistently applied and enforced.\",\n        \"Additional Finding: The document's format (a simple text overlay on an image) suggests a basic level of documentation. A more formalized security document with detailed procedures and diagrams would provide a more robust security assessment.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:10:23.742027"
+    },
+    {
+      "status": "success",
+      "file_name": "File_009",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_009.png",
+      "file_description": "This file appears to be a configuration or policy document related to access control. It defines a policy named '-ReadOnly-Policy' for a group named 'Test-Group', granting access to all resources ('*') with a permission to 'Get' and 'List'. The document’s structure suggests it’s likely part of a larger system managing resource access permissions.",
+      "key_findings": [
+        "Potential Access Control Vulnerability: The use of '*' as a wildcard for 'Resource' grants unrestricted access to all resources within the 'Test-Group'. This represents a significant access control vulnerability.",
+        "Lack of Granular Permissions: The document lacks granular permission definitions.  It only specifies 'Get' and 'List' actions, potentially allowing unauthorized actions beyond read-only access.",
+        "Policy Name Ambiguity: The policy name '-ReadOnly-Policy' is generic and doesn't clearly indicate the scope of access it intends to restrict.  More descriptive naming conventions are recommended.",
+        "Existing Security Feature: The document’s structure suggests a centralized policy management system is in place, allowing for consistent access control definitions across the organization.",
+        "Potential Data Protection Risk: The broad 'Get' and 'List' permissions, combined with the wildcard resource access, could expose sensitive data to unauthorized access and modification.",
+        "Missing Audit Trail Information: The document lacks any indication of auditing or logging mechanisms.  There’s no mention of tracking who accessed or modified this policy, hindering accountability and incident response."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a configuration or policy document related to access control. It defines a policy named '-ReadOnly-Policy' for a group named 'Test-Group', granting access to all resources ('*') with a permission to 'Get' and 'List'. The document’s structure suggests it’s likely part of a larger system managing resource access permissions.\",\n    \"key_findings\": [\n        \"Potential Access Control Vulnerability: The use of '*' as a wildcard for 'Resource' grants unrestricted access to all resources within the 'Test-Group'. This represents a significant access control vulnerability.\",\n        \"Lack of Granular Permissions: The document lacks granular permission definitions.  It only specifies 'Get' and 'List' actions, potentially allowing unauthorized actions beyond read-only access.\",\n        \"Policy Name Ambiguity: The policy name '-ReadOnly-Policy' is generic and doesn't clearly indicate the scope of access it intends to restrict.  More descriptive naming conventions are recommended.\",\n        \"Existing Security Feature: The document’s structure suggests a centralized policy management system is in place, allowing for consistent access control definitions across the organization.\",\n        \"Potential Data Protection Risk: The broad 'Get' and 'List' permissions, combined with the wildcard resource access, could expose sensitive data to unauthorized access and modification.\",\n        \"Missing Audit Trail Information: The document lacks any indication of auditing or logging mechanisms.  There’s no mention of tracking who accessed or modified this policy, hindering accountability and incident response.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:11:00.665680"
+    },
+    {
+      "status": "success",
+      "file_name": "File_010",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_010.png",
+      "file_description": "This file appears to be a configuration or policy document related to network access control within a Virtual Private Cloud (VPC). It defines rules allowing incoming connections to VM instances, primarily utilizing SSH, RDP, and ICMP protocols. The document outlines permitted source ranges and protocols, suggesting a mechanism for managing network access to virtual machines.",
+      "key_findings": [
+        "Potential Access Control Vulnerability: The document’s reliance on allowing connections from specific source ranges (XXX.XXX.XXX.XXX/9, XXX.XXX.XXX.XXX/8, XXX.XXX.XXX.XXX/8) without further granular access controls represents a potential access control vulnerability.  The lack of detail regarding the source ranges themselves necessitates investigation to determine if they are appropriately restricted.",
+        "Reliance on Standard Protocols: The document’s allowance of SSH, RDP, and ICMP protocols is standard but requires ongoing monitoring for malicious use.  The absence of more restrictive protocol definitions could expose the VMs to known vulnerabilities.",
+        "Lack of Authentication Details: The document doesn't specify any authentication mechanisms beyond the permitted protocols.  This leaves the VMs vulnerable to unauthorized access if the underlying SSH or RDP configurations are weak.",
+        "Potential for Excessive Permissions: Allowing connections from /8 and /9 networks could be overly permissive, particularly if these networks are not strictly controlled.  A review of the source ranges is crucial.",
+        "Existing Security Feature: The document explicitly defines rules for incoming connections, representing a basic level of network access control.  This is a foundational security feature.",
+        "Need for Monitoring and Logging: The document's configuration necessitates robust monitoring and logging of all allowed connections to detect and respond to potential security incidents. The lack of explicit mention of logging is a significant concern."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a configuration or policy document related to network access control within a Virtual Private Cloud (VPC). It defines rules allowing incoming connections to VM instances, primarily utilizing SSH, RDP, and ICMP protocols. The document outlines permitted source ranges and protocols, suggesting a mechanism for managing network access to virtual machines.\",\n    \"key_findings\": [\n        \"Potential Access Control Vulnerability: The document’s reliance on allowing connections from specific source ranges (XXX.XXX.XXX.XXX/9, XXX.XXX.XXX.XXX/8, XXX.XXX.XXX.XXX/8) without further granular access controls represents a potential access control vulnerability.  The lack of detail regarding the source ranges themselves necessitates investigation to determine if they are appropriately restricted.\",\n        \"Reliance on Standard Protocols: The document’s allowance of SSH, RDP, and ICMP protocols is standard but requires ongoing monitoring for malicious use.  The absence of more restrictive protocol definitions could expose the VMs to known vulnerabilities.\",\n        \"Lack of Authentication Details: The document doesn't specify any authentication mechanisms beyond the permitted protocols.  This leaves the VMs vulnerable to unauthorized access if the underlying SSH or RDP configurations are weak.\",\n        \"Potential for Excessive Permissions: Allowing connections from /8 and /9 networks could be overly permissive, particularly if these networks are not strictly controlled.  A review of the source ranges is crucial.\",\n        \"Existing Security Feature: The document explicitly defines rules for incoming connections, representing a basic level of network access control.  This is a foundational security feature.\",\n        \"Need for Monitoring and Logging: The document's configuration necessitates robust monitoring and logging of all allowed connections to detect and respond to potential security incidents. The lack of explicit mention of logging is a significant concern.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:11:26.453010"
+    },
+    {
+      "status": "success",
+      "file_name": "File_011",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmp007d155p\\File_011.png",
+      "file_description": "This file appears to be a notification or instruction related to a Duo Push authentication process. It directs the user to verify their identity by approving a notification sent to an Android device. The content suggests a system utilizing Duo Push for two-factor authentication.",
+      "key_findings": [
+        "Potential Authentication Weakness: Reliance on a mobile notification for authentication presents a potential vulnerability.  Users could be susceptible to phishing attacks or SIM swapping, compromising their Duo Push credentials.",
+        "Device Specific Authentication: The notification is specifically targeted to an Android device. This limits the flexibility of the authentication process and could create a dependency on a particular device.",
+        "Existing Security Feature: Duo Push is a recognized two-factor authentication solution, representing a positive security measure for verifying user identity.",
+        "Lack of Detail on Security Protocols: The content lacks specific details regarding security protocols, such as encryption methods used for the notification or the Duo Push service itself.",
+        "Potential for User Error: The instruction to ‘verify it’s you by approving the notification’ relies on the user’s action, which could be prone to errors or accidental approvals.",
+        "Limited Information on Access Control: The file doesn't provide information about access control mechanisms beyond the Duo Push authentication itself.  It doesn't detail any physical or logical access controls related to the system."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a notification or instruction related to a Duo Push authentication process. It directs the user to verify their identity by approving a notification sent to an Android device. The content suggests a system utilizing Duo Push for two-factor authentication.\",\n    \"key_findings\": [\n        \"Potential Authentication Weakness: Reliance on a mobile notification for authentication presents a potential vulnerability.  Users could be susceptible to phishing attacks or SIM swapping, compromising their Duo Push credentials.\",\n        \"Device Specific Authentication: The notification is specifically targeted to an Android device. This limits the flexibility of the authentication process and could create a dependency on a particular device.\",\n        \"Existing Security Feature: Duo Push is a recognized two-factor authentication solution, representing a positive security measure for verifying user identity.\",\n        \"Lack of Detail on Security Protocols: The content lacks specific details regarding security protocols, such as encryption methods used for the notification or the Duo Push service itself.\",\n        \"Potential for User Error: The instruction to ‘verify it’s you by approving the notification’ relies on the user’s action, which could be prone to errors or accidental approvals.\",\n        \"Limited Information on Access Control: The file doesn't provide information about access control mechanisms beyond the Duo Push authentication itself.  It doesn't detail any physical or logical access controls related to the system.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:11:40.267200"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_001.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.754855
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+211
+IDF/
+ELECTRICAL
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of what's visible in the image:
+
+*   **Sign:** A rectangular sign with the words "211 IDF/ELECTRICAL" in black lettering. It appears to be a tactile sign for visually impaired individuals.
+*   **Card Reader:** A black card reader is mounted on the wall.
+*   **Card:** A plastic card with a picture of a person on it is being held up to the card reader.
+*   **Wall:** The background is a plain white wall.
+*   **Shawl/Wrap:** A knitted shawl or wrap is draped over the wall to the right of the card reader.
+
+Let me know if you'd like me to describe any specific part of the image in more detail!
+
+Model: gemma3:4b
+Processing time: 48.47s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 0

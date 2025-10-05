@@ -1,0 +1,72 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_015.jpg
+File Type: .jpg
+Processing Date: 2025-10-05T17:00:58.773610
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+» All services >
+Conditional Access | Policies
+Azure Active Directory
+* La a ++ New policy Q What if () Refresh | © Got feedback?
+Policies
+@ Insights and reporting PERSON_NAME
+XX. Diagnose and solve problems Require MFA for admins
+Block legacy authentication
+Manage
+Require MFA for Azure management
+<> Named locations
+Require MFA for all users
+{= Custom controls (Preview)
+&% Terms of use
+4® VPN connectivity
+Classic policies
+Troubleshooting + Support
+@ Virtual assistant (Preview)
+& New support request
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the screenshot you provided, focusing on the Conditional Access policies:
+
+**What's Shown:**
+
+*   **Conditional Access Policies:** This is the main area where you create and manage Conditional Access policies in Azure Active Directory.
+*   **Policy Names:** The screenshot displays the names of several available Conditional Access policies:
+    *   "Require MFA for admins"
+    *   "Block legacy authentication"
+    *   "Require MFA for Azure management"
+    *   "Require MFA for all users"
+
+**Purpose of These Policies:**
+
+These policies are designed to enhance the security of your Azure Active Directory environment by enforcing Multi-Factor Authentication (MFA).  Here's a brief explanation of each:
+
+*   **Require MFA for admins:**  This policy mandates that all administrators must use MFA to sign in.
+*   **Block legacy authentication:** This policy prevents users from using older authentication methods (like POP3 or IMAP) which are less secure.
+*   **Require MFA for Azure management:** This policy enforces MFA for users accessing Azure management portals (like the Azure portal).
+*   **Require MFA for all users:** This is a broad policy that requires all users to use MFA for *any* access to your organization's resources.
+
+**CLIENT_ORGANIZATION:**
+
+Conditional Access policies are a crucial part of securing your Azure Active Directory environment.  They allow you to define granular rules for who can access what resources and under what conditions, with MFA being a key component of those rules.
+
+Would you like me to:
+
+*   Explain how to create a Conditional Access policy?
+*   Describe the different settings available within a Conditional Access policy?
+
+Model: gemma3:4b
+Processing time: 59.08s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 2
+
+Detected Items:
+- Type: person
+  Original: Policy Name
+  Masked: PERSON_NAME
+- Type: client_info
+  Original: Key Takeaway
+  Masked: CLIENT_ORGANIZATION

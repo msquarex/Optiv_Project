@@ -1,0 +1,16 @@
+file_number,original_file_path,file_type,processing_status,pii_detection_count,pii_detection_status,analysis_status,iam_policies_count,firewall_rules_count,ids_logs_count,vulnerabilities_count,network_configs_count
+1,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_001.png,.png,success,0,success,success,0,1,0,0,0
+2,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_002.png,.png,success,0,success,success,0,1,0,0,0
+3,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_003.png,.png,success,9,success,success,0,1,0,0,0
+4,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_004.png,.png,success,6,success,success,0,0,0,0,0
+5,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_005.png,.png,success,2,success,success,0,0,0,0,0
+6,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_006.jpg,.jpg,success,1,success,success,0,0,0,0,0
+7,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_007.png,.png,success,3,success,success,0,0,0,0,0
+8,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_008.xlsx,.xlsx,success,810,success,success,0,93,0,0,0
+9,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_009.png,.png,success,13,success,success,1,0,0,0,0
+10,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_010.png,.png,success,25,success,success,0,0,0,0,0
+11,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_011.png,.png,success,0,success,success,0,0,0,0,0
+12,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_012.pdf,.pdf,success,16,success,success,0,5,0,0,0
+13,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_013.png,.png,success,18,success,success,2,0,0,0,0
+14,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_014.pptx,.pptx,success,20,success,success,0,0,0,0,0
+15,C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_015.jpg,.jpg,success,2,success,success,0,0,0,0,0

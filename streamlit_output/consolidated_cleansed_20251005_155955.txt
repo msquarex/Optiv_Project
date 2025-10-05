@@ -1,0 +1,31 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+CONSOLIDATED CLEANSED OUTPUT
+==================================================
+Generated: 2025-10-05T15:59:55.010411
+Total Files Processed: 1
+
+FILE 1: C:\Users\HP\AppData\Local\Temp\tmpxha99rt3\File_014.pptx
+----------------------------------------
+Slide 1:
+CLIENT_ORGANIZATION and LOCATION_NAME
+
+------------------------------
+
+Slide 2:
+
+------------------------------
+
+Slide 3:
+Revision History
+Table:
+Revision | Full Name | Email | Reviewed Date | Changes Made (If Any)
+1.0 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Initial draft of network topology diagram created.
+1.1 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Updated IP addressing scheme and VLAN assignments.
+1.2 | Aisha Rahman | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Reviewed and approved existing diagram.
+1.3 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Confirmed compliance with updated security policies.
+
+------------------------------
+
+
+==================================================
+

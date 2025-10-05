@@ -1,0 +1,35 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_009.png
+File Type: .png
+Processing Date: 2025-10-05T16:11:40.271667
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+“GroupName": "Test-Group",
+“PolicyDocument": {
+"Statement": [
+{
+"Action": [
+'53:Get*",
+**:List®
+1,
+“Resource”: "*",
+"Effect": "Allow"
+ay
+"PolicyName": "**-ReadOnly-Policy”
+
+=== IMAGE DESCRIPTION ===
+Image descriptions disabled by user
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 2
+
+Detected Items:
+- Type: us_driver_license
+  Original: S3
+  Masked: MASKED
+- Type: us_driver_license
+  Original: s3
+  Masked: MASKED

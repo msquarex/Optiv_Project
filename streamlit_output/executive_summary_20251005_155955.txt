@@ -1,0 +1,29 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+EXECUTIVE SUMMARY REPORT
+============================================================
+Generated: 2025-10-05T15:59:55.032021
+
+PROCESSING SUMMARY
+--------------------
+Total Files Processed: 1
+Successfully Processed: 1
+Success Rate: 100.0%
+
+PII DETECTION SUMMARY
+-------------------------
+Total PII Items Detected: 20
+Average PII per File: 20.0
+
+SECURITY ANALYSIS SUMMARY
+------------------------------
+IAM Policies Found: 0
+Firewall Rules Found: 0
+IDS/IPS Log Entries: 0
+Vulnerability References: 0
+
+KEY INSIGHTS
+---------------
+• Successfully identified and masked 20 sensitive data items
+
+• All sensitive data has been successfully anonymized
+• Files are ready for security analysis and reporting

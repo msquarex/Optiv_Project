@@ -1,0 +1,2 @@
+file_number,original_file_path,file_type,processing_status,pii_detection_count,pii_detection_status,analysis_status,iam_policies_count,firewall_rules_count,ids_logs_count,vulnerabilities_count,network_configs_count
+1,C:\Users\HP\AppData\Local\Temp\tmpg6awx254\File_003.png,.png,success,9,success,success,0,1,0,0,0

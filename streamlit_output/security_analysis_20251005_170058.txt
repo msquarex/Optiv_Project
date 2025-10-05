@@ -1,0 +1,162 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+SECURITY ANALYSIS REPORT
+==================================================
+Generated: 2025-10-05T17:00:58.777906
+
+ANALYSIS 1
+--------------------
+Summary:
+  - Identified 1 firewall rules
+
+Detailed Findings:
+
+Firewall Rules Found: 1
+  - 211
+
+==================================================
+
+ANALYSIS 2
+--------------------
+Summary:
+  - Identified 1 firewall rules
+
+Detailed Findings:
+
+Firewall Rules Found: 1
+  - 8 a “ “ !
+
+==================================================
+
+ANALYSIS 3
+--------------------
+Summary:
+  - Identified 1 firewall rules
+
+Detailed Findings:
+
+Firewall Rules Found: 1
+  - 02
+
+==================================================
+
+ANALYSIS 4
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 5
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 6
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 7
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 8
+--------------------
+Summary:
+  - Identified 93 firewall rules
+
+Detailed Findings:
+
+Firewall Rules Found: 93
+  - 0   PERSON_NAMEEMP93203                     XX/XX/XXXXPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+  - 1      Margaret Salazar    EMP32537                     XX/XX/XXXX        PERSON_NAMESG            Jessica Sanders             XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+  - 2           PERSON_NAMEEMP99952                     XX/XX/XXXX        PERSON_NAME         XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+  - 3           PERSON_NAMEEMP89956                     XX/XX/XXXX        PERSON_NAMEDM           PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+  - 4             Dawn Wong    EMP95067                     XX/XX/XXXX         PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+
+==================================================
+
+ANALYSIS 9
+--------------------
+Summary:
+  - Found 1 IAM policy statements
+
+Detailed Findings:
+
+IAM Policies Found: 1
+  - "Effect": "Allow"
+
+==================================================
+
+ANALYSIS 10
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 11
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 12
+--------------------
+Summary:
+  - Identified 5 firewall rules
+
+Detailed Findings:
+
+Firewall Rules Found: 5
+  - 1 Introduction 2 User registration
+  - 2 Name of line manager method) or passwordless authentication is available, the appropriate procedure for the
+  - 3 User access adjustment * Contact details
+  - 32 U dj Once the request has been approved, the request should be allocated ta a member of the
+  - 6 Access reviews The scope of the review shuld be defined in terms of the systems and networks that will be
+
+==================================================
+
+ANALYSIS 13
+--------------------
+Summary:
+  - Found 2 IAM policy statements
+
+Detailed Findings:
+
+IAM Policies Found: 2
+  - "Effect": "Allow"
+  - "Action": "sts:AssumeRole"
+
+==================================================
+
+ANALYSIS 14
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+
+ANALYSIS 15
+--------------------
+Summary:
+
+Detailed Findings:
+
+==================================================
+

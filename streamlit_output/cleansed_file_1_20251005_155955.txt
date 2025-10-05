@@ -1,0 +1,94 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmpxha99rt3\File_014.pptx
+File Type: .pptx
+Processing Date: 2025-10-05T15:59:55.009062
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+Slide 1:
+CLIENT_ORGANIZATION and LOCATION_NAME
+
+------------------------------
+
+Slide 2:
+
+------------------------------
+
+Slide 3:
+Revision History
+Table:
+Revision | Full Name | Email | Reviewed Date | Changes Made (If Any)
+1.0 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Initial draft of network topology diagram created.
+1.1 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Updated IP addressing scheme and VLAN assignments.
+1.2 | Aisha Rahman | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Reviewed and approved existing diagram.
+1.3 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Confirmed compliance with updated security policies.
+
+------------------------------
+
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 20
+
+Detected Items:
+- Type: email_address
+  Original: sarah.thompson@cadence.com
+  Masked: XXXX@XXXX.XXX
+- Type: email_address
+  Original: m.chen@cadence.com
+  Masked: XXXX@XXXX.XXX
+- Type: email_address
+  Original: aisha.rahman@cadence.com
+  Masked: XXXX@XXXX.XXX
+- Type: email_address
+  Original: priya.desai@cadence.com
+  Masked: XXXX@XXXX.XXX
+- Type: location
+  Original: Updates
+  Masked: LOCATION_NAME
+- Type: person
+  Original: Sarah Thompson
+  Masked: PERSON_NAME
+- Type: date_time
+  Original: 2023-06-01
+  Masked: XX/XX/XXXX
+- Type: person
+  Original: Michael Chen
+  Masked: PERSON_NAME
+- Type: date_time
+  Original: 2023-12-03
+  Masked: XX/XX/XXXX
+- Type: date_time
+  Original: 2024-05-07
+  Masked: XX/XX/XXXX
+- Type: person
+  Original: Priya Desai
+  Masked: PERSON_NAME
+- Type: date_time
+  Original: 2024-10-15
+  Masked: XX/XX/XXXX
+- Type: url
+  Original: sarah.th
+  Masked: MASKED
+- Type: url
+  Original: cadence.com
+  Masked: MASKED
+- Type: url
+  Original: m.ch
+  Masked: MASKED
+- Type: url
+  Original: cadence.com
+  Masked: MASKED
+- Type: url
+  Original: cadence.com
+  Masked: MASKED
+- Type: url
+  Original: priya.de
+  Masked: MASKED
+- Type: url
+  Original: cadence.com
+  Masked: MASKED
+- Type: client_info
+  Original: Network Topology Diagram
+Internal Team Reviews
+  Masked: CLIENT_ORGANIZATION

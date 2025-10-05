@@ -1,0 +1,130 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_013.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.771611
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+aws iam create-role \
+--role-name Test-Role \
+--assume-role-policy-document file://Test-RoLe-Trust-Policy.json \
+--max-session-duration 7200
+Dutput:
+{
+"Role": {
+"path":
+: "Test-Role",
+"AKIATOSFODNN7EXAMPLE",
+am: :XXX-XXX-XXXX:role/Test-Role",
+@23-05-24T23:50:25+00:00",
+‘AssumeRolePolicyDocument": {
+"Version": "XX/XX/XXXX",
+"Statement": [
+{
+"Sid": "Statement1"
+"Effect": "Allow",
+"Principal": {
+"AWS": “arn:aws: iam: :XXX-XXX-XXXX: root"
+is)
+"Action": "sts:AssumeRole"
+}
+]
+t
++
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, let's break down the JSON output from the `aws create-role` command. This JSON represents the configuration of an AWS IAM Role.
+
+**Key Elements and Their Meanings:**
+
+*   **`"Role"`: { ... }**
+    *   `"Path"`: `/` -  This is the path within the AWS resource hierarchy where this role is defined.  `/` means it's a root-level role.
+    *   `"RoleName"`: `"Test-Role"` - This is the name you've given to the role.  This is how you'll refer to it in your AWS resources.
+    *   `"RoleId"`: `"AKIAIOSFDNN7EXAMPLE"` - This is the unique identifier assigned to the role by AWS.  It's a long, random string.
+    *   `"Arn"`: `"arn:aws:iamXXX.XXX.XXX.XXXXXX-XXX-XXXX:role/Test-Role"` - This is the Amazon Resource Name (ARN) of the role. It's the fully qualified identifier that uniquely identifies the role within your AWS account and region.
+    *   `"CreateDate"`: `"XX/XX/XXXX"` - The date and time when the role was created.
+    *   `"AssumeRolePolicyDocument"`: { ... } -  This is the JSON document that defines the permissions granted to users or other roles when they assume this role.  Let's look at what's inside it.
+
+*   **`"Version"`: `"XX/XX/XXXX"`** - This specifies the version of the *** policy language used in the `AssumeRolePolicyDocument`.
+
+*   **`"Statement"`: [ ... ]** - This is an array of statements.  Each statement defines a permission rule. In this case, there's only one statement.
+
+    *   `"Sid"`: `"Statement1"` - A statement identifier (SID) for the statement.  SIDs are used to uniquely identify statements within a policy.
+    *   `"Effect"`: `"Allow"` - This indicates that the statement grants permissions.
+    *   `"Principal"`: `{ "AWS": "arn:aws:iamXXX.XXX.XXX.XXXXXX-XXX-XXXX:root" }` - This specifies who is granted the permission. In this case, it's the root account of your AWS account.  This means any user or role that assumes this role will have access to resources within your entire AWS account.
+    *   `"Action"`: `"sts:AssumeRole"` - This is the specific action that is allowed.  `sts:AssumeRole` is the action that allows another entity (a user, role, or service) to assume this role.
+
+**In Summary**
+
+This JSON defines an IAM role named "Test-Role" with the ID AKIAIOSFDNN7EXAMPLE.  It allows any user or role to assume this role, and that assumption grants access to resources within your entire AWS account.
+
+**Important Considerations:**
+
+*   **Security:**  Granting access to the root account is a very powerful permission.  In a production environment, you should generally restrict access to the root account and use more granular policies to limit the permissions granted to roles.
+*   **Trust Relationships:**  This role establishes a "trust relationship."  It specifies which entities (principals) are allowed to assume this role.
+
+If you have a specific use case in mind, let me know, and I can provide more tailored advice. Do you want to understand how to use this role in a script, or are you interested in how to create more restrictive policies?
+
+Model: gemma3:4b
+Processing time: 75.09s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 18
+
+Detected Items:
+- Type: date_time
+  Original: 2023-05-24T23:50:25+00:00
+  Masked: XX/XX/XXXX
+- Type: ip_address
+  Original: ::
+  Masked: XXX.XXX.XXX.XXX
+- Type: date_time
+  Original: 2012-10-17
+  Masked: XX/XX/XXXX
+- Type: nrp
+  Original: IAM
+  Masked: MASKED
+- Type: ip_address
+  Original: ::
+  Masked: XXX.XXX.XXX.XXX
+- Type: date_time
+  Original: 2012-10-17
+  Masked: XX/XX/XXXX
+- Type: phone_number
+  Original: 12345678012
+  Masked: XXX-XXX-XXXX
+- Type: phone_number
+  Original: 12345678012
+  Masked: XXX-XXX-XXXX
+- Type: phone_number
+  Original: 12345678012
+  Masked: XXX-XXX-XXXX
+- Type: phone_number
+  Original: 12345678012
+  Masked: XXX-XXX-XXXX
+- Type: us_bank_number
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_bank_number
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_bank_number
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_bank_number
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_driver_license
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_driver_license
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_driver_license
+  Original: 12345678012
+  Masked: MASKED
+- Type: us_driver_license
+  Original: 12345678012
+  Masked: MASKED

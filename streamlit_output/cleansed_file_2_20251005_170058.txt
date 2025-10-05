@@ -1,0 +1,44 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_002.png
+File Type: .png
+Processing Date: 2025-10-05T17:00:58.758533
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+ee , . |
+| Do -
+a fH y ‘ 1
+im. cie ia i 1
+: eee |
+' ae
+e ‘ “4H
+8 a “ “ !
+. 4 we |
+ma, ‘ts oe
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a description of the image:
+
+**Overall Impression:**
+
+The image shows a modern security access control panel mounted on a wooden door. It's a typical system used for keycard or biometric access control in buildings.
+
+**Key Features:**
+
+*   **Touchscreen Display:** The panel has a large touchscreen display showing the time (14:46) and likely other system information.
+*   **Keypad:** A numeric keypad is present for manual entry of access codes.
+*   **Fingerprint Scanner:** A fingerprint scanner is visible, indicating biometric access control.
+*   **Camera:** A small camera is integrated into the unit, likely for surveillance.
+*   **Mounting:** The panel is securely mounted on a light-colored wooden door.
+
+**Context:**
+
+This type of system is commonly found in offices, residential buildings, and other locations where access control is required.
+
+Model: gemma3:4b
+Processing time: 49.72s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 0

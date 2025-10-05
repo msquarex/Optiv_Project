@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-05T16:40:25.535322",
+    "total_files": 1,
+    "project": "VIT Campus Connect - Cyber Simulation Exercise"
+  },
+  "processing_results": [
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpaqkq7xdw\\File_003.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\\n\n=== IMAGE DESCRIPTION (Gemma3) ===\nHere's the information from the visitor log book:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kate Hopkins\n*   **Reason for Visit:** Sales Demo\n*   **Time In:** 10:25 am\n*   **Time Out:** 11:35 am\n*   **Initials:** K. Hopkins\n\nAnd for the second entry:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kelly Van Storm\n*   **Reason for Visit:** Meeting James Hodden\n\nModel: gemma3:4b\nProcessing time: 78.95s",
+      "ocr_text": "VISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\",
+      "image_description": "Here's the information from the visitor log book:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kate Hopkins\n*   **Reason for Visit:** Sales Demo\n*   **Time In:** 10:25 am\n*   **Time Out:** 11:35 am\n*   **Initials:** K. Hopkins\n\nAnd for the second entry:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kelly Van Storm\n*   **Reason for Visit:** Meeting James Hodden",
+      "description_status": "success",
+      "description_error": "",
+      "status": "success"
+    }
+  ],
+  "pii_results": [
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\\n\n=== IMAGE DESCRIPTION (Gemma3) ===\nHere's the information from the visitor log book:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kate Hopkins\n*   **Reason for Visit:** Sales Demo\n*   **Time In:** 10:25 am\n*   **Time Out:** 11:35 am\n*   **Initials:** K. Hopkins\n\nAnd for the second entry:\n\n*   **Date:** 22/03/2023\n*   **Name:** Kelly Van Storm\n*   **Reason for Visit:** Meeting James Hodden\n\nModel: gemma3:4b\nProcessing time: 78.95s",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\nXX/XX/XXXX\nPERSON_NAME\nSales Demo\nREASON FOR VISIT\n02\nXX/XX/XXXX\nPERSON_NAME James ttodden|\n\\\n\n=== IMAGE DESCRIPTION (Gemma3) ===\nHere's the information from the visitor log book:\n\n*   **Date:** XX/XX/XXXX\n*   **Name:** PERSON_NAME\n*   **Reason for Visit:** Sales Demo\n*   **Time In:** 10:25 am\n*   **Time Out:** 11:35 am\n*   **Initials:** K. Hopkins\n\nAnd for the second entry:\n\n*   **Date:** XX/XX/XXXX\n*   **Name:** PERSON_NAME\n*   **Reason for Visit:** Meeting PERSON_NAME\n\nModel: gemma3:4b\nProcessing time: 78.95s",
+      "detected_items": [
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/23",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            94,
+            102
+          ],
+          "confidence": 0.95
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/2023",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            297,
+            307
+          ],
+          "confidence": 0.95
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/2023",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            496,
+            506
+          ],
+          "confidence": 0.95
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kate Hopkins",
+          "masked": "PERSON_NAME",
+          "position": [
+            103,
+            115
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kelly Van Stom\nMeeting",
+          "masked": "PERSON_NAME",
+          "position": [
+            156,
+            178
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kate Hopkins",
+          "masked": "PERSON_NAME",
+          "position": [
+            322,
+            334
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kelly Van Storm",
+          "masked": "PERSON_NAME",
+          "position": [
+            521,
+            536
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "James Hodden",
+          "masked": "PERSON_NAME",
+          "position": [
+            571,
+            583
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/23",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            147,
+            155
+          ],
+          "confidence": 0.6
+        }
+      ],
+      "detection_count": 9,
+      "status": "success"
+    }
+  ],
+  "analysis_results": [
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\nXX/XX/XXXX\nPERSON_NAME\nSales Demo\nREASON FOR VISIT\n02\nXX/XX/XXXX\nPERSON_NAME James ttodden|\n\\\n\n=== IMAGE DESCRIPTION (Gemma3) ===\nHere's the information from the visitor log book:\n\n*   **Date:** XX/XX/XXXX\n*   **Name:** PERSON_NAME\n*   **Reason for Visit:** Sales Demo\n*   **Time In:** 10:25 am\n*   **Time Out:** 11:35 am\n*   **Initials:** K. Hopkins\n\nAnd for the second entry:\n\n*   **Date:** XX/XX/XXXX\n*   **Name:** PERSON_NAME\n*   **Reason for Visit:** Meeting PERSON_NAME\n\nModel: gemma3:4b\nProcessing time: 78.95s",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [
+            {
+              "rule": "02",
+              "position": [
+                145,
+                147
+              ]
+            }
+          ],
+          "actions": [],
+          "protocols": [
+            {
+              "protocol": "IP",
+              "position": [
+                204,
+                206
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "2023",
+              "position": [
+                81,
+                85
+              ]
+            },
+            {
+              "port": "02",
+              "position": [
+                145,
+                147
+              ]
+            },
+            {
+              "port": "3",
+              "position": [
+                217,
+                218
+              ]
+            },
+            {
+              "port": "10",
+              "position": [
+                380,
+                382
+              ]
+            },
+            {
+              "port": "25",
+              "position": [
+                383,
+                385
+              ]
+            },
+            {
+              "port": "11",
+              "position": [
+                407,
+                409
+              ]
+            },
+            {
+              "port": "35",
+              "position": [
+                410,
+                412
+              ]
+            },
+            {
+              "port": "3",
+              "position": [
+                583,
+                584
+              ]
+            },
+            {
+              "port": "4",
+              "position": [
+                585,
+                586
+              ]
+            },
+            {
+              "port": "78",
+              "position": [
+                605,
+                607
+              ]
+            },
+            {
+              "port": "95",
+              "position": [
+                608,
+                610
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [
+            {
+              "severity": "info",
+              "position": [
+                235,
+                239
+              ]
+            }
+          ],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 1,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": [
+            "Identified 1 firewall rules"
+          ]
+        }
+      },
+      "status": "success"
+    }
+  ],
+  "llm_analysis_results": [
+    {
+      "status": "success",
+      "file_name": "File_003",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpaqkq7xdw\\File_003.png",
+      "file_description": "This file appears to be a visitor log book for a sales demonstration or meeting. It records visitor details including date, name, reason for visit, and time of entry and exit. The format suggests a basic record-keeping system for tracking individuals accessing a facility.",
+      "key_findings": [
+        "Potential Access Control Weakness: The reliance on a simple log book for visitor tracking represents a significant access control weakness. There's no indication of any authentication mechanisms (e.g., badge scanning, PIN entry) or authorization controls beyond simply recording the visitor's presence.",
+        "Lack of Data Protection: The document format itself offers no inherent data protection measures.  The information is stored in a plain text format, vulnerable to unauthorized access and modification.",
+        "Missing Audit Trail: The log book lacks an audit trail. There's no record of who created or updated the log, or when. This hinders accountability and investigation in case of security incidents.",
+        "Existing Security Feature: The log book itself represents a basic security feature – tracking visitors. However, its implementation is severely lacking in robust controls.",
+        "Potential for Misuse: The format allows for easy manipulation of entries, potentially leading to fraudulent entries or inaccurate records. The absence of validation checks exacerbates this risk.",
+        "Additional Finding: The use of 'PERSON_NAME' as a placeholder suggests a lack of standardization and potentially inconsistent data entry, impacting the reliability of the log for security analysis."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a visitor log book for a sales demonstration or meeting. It records visitor details including date, name, reason for visit, and time of entry and exit. The format suggests a basic record-keeping system for tracking individuals accessing a facility.\",\n    \"key_findings\": [\n        \"Potential Access Control Weakness: The reliance on a simple log book for visitor tracking represents a significant access control weakness. There's no indication of any authentication mechanisms (e.g., badge scanning, PIN entry) or authorization controls beyond simply recording the visitor's presence.\",\n        \"Lack of Data Protection: The document format itself offers no inherent data protection measures.  The information is stored in a plain text format, vulnerable to unauthorized access and modification.\",\n        \"Missing Audit Trail: The log book lacks an audit trail. There's no record of who created or updated the log, or when. This hinders accountability and investigation in case of security incidents.\",\n        \"Existing Security Feature: The log book itself represents a basic security feature – tracking visitors. However, its implementation is severely lacking in robust controls.\",\n        \"Potential for Misuse: The format allows for easy manipulation of entries, potentially leading to fraudulent entries or inaccurate records. The absence of validation checks exacerbates this risk.\",\n        \"Additional Finding: The use of 'PERSON_NAME' as a placeholder suggests a lack of standardization and potentially inconsistent data entry, impacting the reliability of the log for security analysis.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:40:25.482992"
+    }
+  ]
+}

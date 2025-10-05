@@ -1,0 +1,945 @@
+VIT CAMPUS CONNECT - CYBER SIMULATION EXERCISE
+CONSOLIDATED CLEANSED OUTPUT
+==================================================
+Generated: 2025-10-05T17:00:58.776003
+Total Files Processed: 15
+
+FILE 1: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_001.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+211
+IDF/
+ELECTRICAL
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of what's visible in the image:
+
+*   **Sign:** A rectangular sign with the words "211 IDF/ELECTRICAL" in black lettering. It appears to be a tactile sign for visually impaired individuals.
+*   **Card Reader:** A black card reader is mounted on the wall.
+*   **Card:** A plastic card with a picture of a person on it is being held up to the card reader.
+*   **Wall:** The background is a plain white wall.
+*   **Shawl/Wrap:** A knitted shawl or wrap is draped over the wall to the right of the card reader.
+
+Let me know if you'd like me to describe any specific part of the image in more detail!
+
+Model: gemma3:4b
+Processing time: 48.47s
+
+==================================================
+
+FILE 2: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_002.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+ee , . |
+| Do -
+a fH y ‘ 1
+im. cie ia i 1
+: eee |
+' ae
+e ‘ “4H
+8 a “ “ !
+. 4 we |
+ma, ‘ts oe
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a description of the image:
+
+**Overall Impression:**
+
+The image shows a modern security access control panel mounted on a wooden door. It's a typical system used for keycard or biometric access control in buildings.
+
+**Key Features:**
+
+*   **Touchscreen Display:** The panel has a large touchscreen display showing the time (14:46) and likely other system information.
+*   **Keypad:** A numeric keypad is present for manual entry of access codes.
+*   **Fingerprint Scanner:** A fingerprint scanner is visible, indicating biometric access control.
+*   **Camera:** A small camera is integrated into the unit, likely for surveillance.
+*   **Mounting:** The panel is securely mounted on a light-colored wooden door.
+
+**Context:**
+
+This type of system is commonly found in offices, residential buildings, and other locations where access control is required.
+
+Model: gemma3:4b
+Processing time: 49.72s
+
+==================================================
+
+FILE 3: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_003.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+VISITORS LOG BOOK - PLEASE SIGN IN
+MONTH: MAYch
+YEAR: 2023
+ol
+DATE
+XX/XX/XXXX
+PERSON_NAME
+Sales Demo
+REASON FOR VISIT
+02
+XX/XX/XXXX
+PERSON_NAME James ttodden|
+\
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's the information extracted from the image of the visitor log book:
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Sales Demo
+*   **Time In:** 10:25 am
+*   **Time Out:** 11:35 am
+*   **Initials:** K. Hopkins
+
+*   **Date:** XX/XX/XXXX
+*   **Name:** PERSON_NAME
+*   **Reason for Visit:** Meeting PERSON_NAME
+
+Model: gemma3:4b
+Processing time: 47.76s
+
+==================================================
+
+FILE 4: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_004.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+CERTIFICATE OF
+Data Destruction
+This certifies that the following data and associated digital files have
+been permanently destroyed in compliance with data protection
+regulations and security standards:
+Type of CLIENT_ORGANIZATION:
+Confidential client data, backup files, and encrypted records
+Quantity Destroyed:
+1,000 GB of data
+Destruction Method:
+Secure data wiping and physical destruction of storage devices
+The above data has been irreversibly destroyed to
+prevent unauthorized access and ensure compliance
+with privacy laws.
+PERSON_NAME
+Data Security Officer
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the information presented in the image:
+
+**Certificate of Data Destruction**
+
+*   **Type of CLIENT_ORGANIZATION:** Confidential client data, backup files, and encrypted records.
+*   **Quantity Destroyed:** 1,000 LOCATION_NAME of data.
+*   **Destruction Method:** Secure data wiping and physical destruction of storage devices.
+*   **Statement:** The above data has been irreversibly destroyed to prevent unauthorized access and ensure compliance with privacy laws.
+*   **Data Security Officer:** PERSON_NAME**In essence, this document confirms the secure and permanent removal of 1,000 LOCATION_NAME of sensitive data using a combination of data wiping and physical destruction of storage devices, all in accordance with privacy regulations.**
+
+Model: gemma3:4b
+Processing time: 49.33s
+
+==================================================
+
+FILE 5: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_005.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+INTERNET DMZ TRUSTED PRIVILEGED
+Remote Employee}
+er
+CLIENT_ORGANIZATION
+a
+Untrusted Client
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, let's break down this network diagram. It represents a classic, highly secure network architecture, commonly known as a **Three-Tier Architecture** or a **Defense-in-Depth** approach. Here's a detailed explanation of each component and the overall design:
+
+**1. Network Zones (The Three Sections):**
+
+*   **Internet:** This is the untrusted zone, representing the public internet.  This zone contains devices like remote employees' laptops, remote office computers, and mobile devices.
+*   **DMZ (LOCATION_NAME):** This zone sits between the internet and the internal network. It's designed to provide a buffer and control access to the internal network.
+*   **Privileged/Trusted:** This is the most secure zone, containing critical systems like the mainframe and application services. Access to this zone is strictly controlled.
+
+**2. Key Components and Their Roles:**
+
+*   **VPN Gateway:** This is the central device for secure remote access. It establishes VPN tunnels to allow remote users to securely connect to the internal network. The VPN gateway enforces authentication, encryption, and often, access control policies.
+*   **Load Balancer (LB):**  This device distributes network traffic across multiple servers, increasing performance and availability. It's a crucial component for application services.
+*   **Firewall:** The firewall is a critical security device located within the DMZ. It controls the flow of network traffic, preventing unauthorized access to the internal network.
+*   **Mainframe:** This represents a high-value, critical system (often a database server or a core business application).
+*   **Application Services:** These are services that provide functionality to users.
+
+**3. Traffic Flow and Security Principles:**
+
+*   **Remote Access:** Remote employees connect to the VPN gateway, which then establishes a secure tunnel to the internal network.
+*   **DMZ as a Buffer:** The DMZ allows controlled access to services that need to be exposed to the internet (e.g., web servers) while isolating them from the internal network.
+*   **Defense-in-Depth:** The architecture employs multiple layers of security.  An attacker would need to breach several layers to gain access to the mainframe.
+*   **Least Privilege:** Access to the mainframe and application services is granted only to those users who absolutely need it.
+
+**4. Overall Security Strategy:**
+
+This diagram reflects a robust security strategy based on:
+
+*   **Segmentation:** Dividing the network into zones with different levels of security.
+*   **Access Control:** Limiting access based on the principle of least privilege.
+*   **Encryption:** VPN tunnels and potentially other security measures use encryption to protect data in transit.
+*   **Monitoring and Logging:**  (Not explicitly shown in the diagram) -  Comprehensive monitoring and logging are essential to detect and respond to security threats.
+
+**In short, this is a well-designed network architecture that prioritizes security and protects critical systems from external threats.**
+
+Do you want me to delve deeper into a specific aspect of this diagram, such as:
+
+*   The role of firewalls in more detail?
+*   The security protocols used in VPN tunnels?
+*   The types of monitoring systems that might be used?
+
+Model: gemma3:4b
+Processing time: 69.28s
+
+==================================================
+
+FILE 6: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_006.jpg
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+GS %
+ou Onna fag
+‘ee Sele
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, let's analyze the screenshot of the 10-Strike Network Monitor Pro interface.
+
+**Overall Impression:**
+
+This screenshot shows the main interface of the 10-Strike Network Monitor Pro, a software application used for monitoring and managing IP cameras and network devices.  It appears to be in a monitoring mode.
+
+**Key Elements and Information:**
+
+*   **Top Navigation Bar:**
+    *   "Home":  Likely returns to the main dashboard.
+    *   "Hosts":  Allows you to view and manage connected devices.
+    *   "Checks":  Displays the status of configured checks (e.g., camera status, network checks).
+    *   "Monitoring Logs": Displays the historical logs of the system.
+    *   "Groups":  Allows you to organize devices into groups for easier management.
+    *   "Reports":  Generates reports based on the monitoring data.
+    *   "View":  Offers various viewing options (e.g., grid view, list view).
+    *   "Help": Provides documentation and support.
+
+*   **Main Content Area:** This area displays the live video feeds from the connected IP cameras.
+    *   Each camera is represented by a thumbnail image.
+    *   The "RTSP" label indicates that the cameras are streaming video using the Real-Time Streaming Protocol.
+
+*   **Bottom Left Corner:**
+    *   "Number of live cameras: XXXXX. Total hosts: 71" - Shows the number of live cameras and total hosts.
+
+*   **Bottom Right Corner:**
+    *   "Database address: localhost" - Indicates that the monitoring software is using the local database.
+
+**In Summary:**
+
+This is a typical view of the 10-Strike Network Monitor Pro, showcasing the live video streams from multiple IP cameras.  It's a tool used for security surveillance, network monitoring, and potentially other applications that require real-time video streaming.
+
+Do you have any specific questions about this screenshot, such as:
+
+*   What features are highlighted?
+*   How do you use the software?
+*   What is the purpose of the different labels (e.g., RTSP)?
+
+Model: gemma3:4b
+Processing time: 62.35s
+
+==================================================
+
+FILE 7: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_007.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+CLIENT_ORGANIZATION
+restroom |
+R *|
+Hallway
+Break Room Reception
+Badge-only
+Entry
+Emergency
+Exit
+(@@ RESTRICTED SECURITY 2ONE —> Path of access
+[D] EMERGENCY EXIT 8 SECURITYCA**** —*#@_ SECURITY
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the floor plan you provided:
+
+**Key Areas:**
+
+*   **Server Room:** Located in the upper right corner, highlighted in red.
+*   **CLIENT_ORGANIZATION:**  Also in the upper right corner, adjacent to the server room.
+*   **Reception/Badge-Only Entry:** This is the main entrance point, requiring a badge for access.
+*   **Visitor Check-in:**  A designated area for visitors to register.
+*   **Break Room:** Located to the left of the reception area.
+*   **Offices:** Multiple offices are scattered throughout the space.
+*   **Restrooms:** Two restrooms are available.
+
+**Security Features:**
+
+*   Security cameras are positioned strategically throughout the building, particularly around entrances and key areas.
+
+**Other Notes:**
+
+*   The floor plan indicates a "Security Zone" and a "Path of Access" to guide movement and security protocols.
+*   An emergency exit is clearly marked.
+
+Do you have any specific questions about the layout or want me to point out a particular feature?
+
+Model: gemma3:4b
+Processing time: 53.01s
+
+==================================================
+
+FILE 8: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_008.xlsx
+----------------------------------------
+Sheet: Sheet1
+     Employee Full Name Employee ID Date of In-Person Verification Verified By (RA Name) RA Signature / Initials Authorized By (Supervisor)                    Supervisor Email Date of Authorization Token Serial Number Token Issuance Date
+0   PERSON_NAMEEMP93203                     XX/XX/XXXXPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+1      Margaret Salazar    EMP32537                     XX/XX/XXXX        PERSON_NAMESG            Jessica Sanders             XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+2           PERSON_NAMEEMP99952                     XX/XX/XXXX        PERSON_NAME         XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+3           PERSON_NAMEEMP89956                     XX/XX/XXXX        PERSON_NAMEDM           PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+4             Dawn Wong    EMP95067                     XX/XX/XXXX         PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+5      Hannah Rodriguez    EMP55065                     XX/XX/XXXX          PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+6        PERSON_NAMEEMP36328                     XX/XX/XXXX          Amanda Kelly                      AK               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+7         Mark Melendez    EMP71600                     XX/XX/XXXX        PERSON_NAMETM            PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+8         PERSON_NAMEEMP53733                     XX/XX/XXXX       PERSON_NAMERC                     PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+9          PERSON_NAMEEMP83247                     XX/XX/XXXXPERSON_NAMEDB               PERSON_NAME            XX/XX/XXXX
+10        PERSON_NAMEEMP95081                     XX/XX/XXXX      Mrs. PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+11       David Schwartz    EMP61218                     XX/XX/XXXX      Alfred Donaldson                      AD              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+12        PERSON_NAMEEMP33145                     XX/XX/XXXX    PERSON_NAME Washington                      AW              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+13            PERSON_NAMEEMP94400                     XX/XX/XXXX         PERSON_NAMEBL              PERSON_NAME            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+14      Trevor Gonzalez    EMP89626                     XX/XX/XXXX        PERSON_NAMEAH             PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+15      Jason Dominguez    EMP65654                     XX/XX/XXXX            PERSON_NAMEDL            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+16      Nicholas Morris    EMP12431                     XX/XX/XXXX         PERSON_NAMEWE               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX   PERSON_NAME    EMP70911                     XX/XX/XXXX          PERSON_NAMEDS               PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX
+18       PERSON_NAMEEMP10345                     XX/XX/XXXX    Tiffany Washington                      TW              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+19     PERSON_NAMEEMP18988                     XX/XX/XXXX            PERSON_NAMESH                PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+20      Lindsay LOCATION_NAME    EMP73399                     XX/XX/XXXXPERSON_NAMEJG                PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+21         PERSON_NAMEEMP93948                     XX/XX/XXXX          PERSON_NAMEJB             PERSON_NAME            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+22     PERSON_NAMEEMP66905                     XX/XX/XXXX       PERSON_NAMEPERSON_NAME            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+23         PERSON_NAMEEMP30696                     XX/XX/XXXX            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+24       PERSON_NAMEEMP99106                     XX/XX/XXXX       PERSON_NAMEVS              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+25        PERSON_NAME                     XX/XX/XXXX          PERSON_NAMELOCATION_NAME                Erin French            XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+26           PERSON_NAMEEMP88162                     XX/XX/XXXX      Alexandra Burton                      AB             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+27      Morgan Williams    EMP82226                     XX/XX/XXXX            PERSON_NAMEJG                Joan Harris         XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+28         Nathan James    EMP93437                     XX/XX/XXXX           PERSON_NAMETB                  PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+29     PERSON_NAMEEMP79753                     XX/XX/XXXX            PERSON_NAMEJS              PERSON_NAME          XXXX@XXXX.XXX            XX/XX/XXXX
+30  PERSON_NAMEEMP72447                     XX/XX/XXXX         PERSON_NAMEMB             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+31        PERSON_NAMEEMP91574                     XX/XX/XXXX    PERSON_NAMEVV           PERSON_NAME          XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+32    Mr. PERSON_NAMEEMP19217                     XX/XX/XXXX     Phillip Alexander                      PA               Keith Landry       XXXX@XXXX.XXX            XX/XX/XXXX
+33        PERSON_NAMEEMP80490                     XX/XX/XXXX       PERSON_NAMEWJ               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+34   PERSON_NAMEEMP43226                     XX/XX/XXXXPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+35       Vincent Hughes    EMP44462                     XX/XX/XXXX           PERSON_NAMEDB   Mrs. PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+36        PERSON_NAMEEMP18054                     XX/XX/XXXX          PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+XX/XX/XXXX         PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+38          PERSON_NAMEEMP51381                     XX/XX/XXXX          PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+39         PERSON_NAME    EMP23101                     XX/XX/XXXX            Megan Hall                      MH               PERSON_NAME            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX        PERSON_NAMEEMP62118                     XX/XX/XXXX      Savannah Proctor                      SP             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+41         PERSON_NAMEEMP37149                     XX/XX/XXXX           PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+42        PERSON_NAMEEMP60881                     XX/XX/XXXX          PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+43   PERSON_NAMEEMP15282                     XX/XX/XXXX          Ashley Brown                      AB             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+44        Dean Campbell    EMP17233                     XX/XX/XXXXPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+45      Christina Myers    EMP57691                     XX/XX/XXXXPERSON_NAMEPERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+46        PERSON_NAMEEMP11717                     XX/XX/XXXXJamie Spencer                      JS             Morgan Gardner         XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+47         PERSON_NAMEEMP59501                     XX/XX/XXXXPERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+48        PERSON_NAMEEMP16269                     XX/XX/XXXXPERSON_NAMEPB               Donna Daniel                XXXX@XXXX.XXX            XX/XX/XXXX
+49         Jeanne White    EMP95124                     XX/XX/XXXX       PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+50        PERSON_NAMEEMP89565                     XX/XX/XXXX      Collin Cervantes                      CC            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+51         PERSON_NAMEEMP90997                     XX/XX/XXXXPERSON_NAMESF              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+XX/XX/XXXXXX/XX/XXXXXX/XX/XXXX         PERSON_NAMEJL            PERSON_NAME  XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+53        PERSON_NAMEEMP69903                     XX/XX/XXXX        PERSON_NAMEAS              Cynthia Cross                XXXX@XXXX.XXX            XX/XX/XXXX
+54       PERSON_NAMEEMP64366                     XX/XX/XXXXPERSON_NAMEMS                 PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+55        PERSON_NAME    EMP91924                     XX/XX/XXXX          PERSON_NAMEMB            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+56       PERSON_NAMEEMP18861                     XX/XX/XXXX     PERSON_NAMESA                Karen Estes                 XXXX@XXXX.XXX            XX/XX/XXXX
+57        PERSON_NAME    EMP55759                     XX/XX/XXXX          PERSON_NAME MD               XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+58          PERSON_NAME    EMP72039                     XX/XX/XXXXPERSON_NAMEPERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX
+59       PERSON_NAME    EMP64890                     XX/XX/XXXX        Karen Copeland                      KC             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+60        PERSON_NAME                     XX/XX/XXXX          Megan Thomas                      LOCATION_NAME           PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+61      Kimberly Barron    EMP20027                     XX/XX/XXXX          PERSON_NAMEBP        PERSON_NAME               XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+62          PERSON_NAME    EMP68293                     XX/XX/XXXX        PERSON_NAMEMW                 PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+63           Jared Wood    EMP25756                     XX/XX/XXXXPERSON_NAMEAT         PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX
+64           PERSON_NAMEEMP99658                     XX/XX/XXXX      Mr. PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+65        PERSON_NAMEEMP33809                     XX/XX/XXXX          PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+66      Shannon Herrera    EMP16694                     XX/XX/XXXXAlexis Barker                      AB            PERSON_NAME            XX/XX/XXXX
+67     PERSON_NAMEEMP17950                     XX/XX/XXXXPERSON_NAMELW             PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+68       PERSON_NAME    EMP85706                     XX/XX/XXXX          PERSON_NAMEKM                PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX       Brandon Cooper    EMP52935                     XX/XX/XXXXPERSON_NAMERS         PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+70      Tyler Robertson    EMP53163                     XX/XX/XXXX          PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+71       PERSON_NAME    EMP38577                     XX/XX/XXXX      PERSON_NAME MD                     CCM              PERSON_NAME            XX/XX/XXXX
+72         PERSON_NAME    EMP90273                     XX/XX/XXXXPERSON_NAMEAD               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+73       Amanda PERSON_NAMEEMP55818                     XX/XX/XXXX       PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+74        PERSON_NAMEEMP45310                     XX/XX/XXXX          PERSON_NAMEKM              PERSON_NAME                  XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+75         PERSON_NAME    EMP70154                     XX/XX/XXXX         PERSON_NAME            XX/XX/XXXX
+76     Dalton Rodriguez    EMP85969                     XX/XX/XXXX      PERSON_NAMELOCATION_NAME                 PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+77      Anthony Collins    EMP56925                     XX/XX/XXXX    PERSON_NAME                     JHD          Mr. PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+78            PERSON_NAMEEMP89170                     XX/XX/XXXX           PERSON_NAMEEH             PERSON_NAME            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+79       PERSON_NAMEEMP17676                     XX/XX/XXXX        PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+80       Jorge Crawford    EMP51925                     XX/XX/XXXX        PERSON_NAMEPM               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+81       PERSON_NAMEEMP41889                     XX/XX/XXXX        PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+82        PERSON_NAMEEMP28360                     XX/XX/XXXX            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+83          PERSON_NAMEEMP37892                     XX/XX/XXXX       PERSON_NAMEPERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+84  Mr. PERSON_NAME    EMP73769                     XX/XX/XXXX      Kendra Rodriguez                      KR               PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX        PERSON_NAME    EMP32363                     XX/XX/XXXX      Matthew Richmond                      MR                 PERSON_NAME          XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX        PERSON_NAMEEMP28881                     XX/XX/XXXX       Kimberly Turner                      KT        Christopher Wallace                   XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+87        PERSON_NAMEEMP55143                     XX/XX/XXXX          PERSON_NAMEPERSON_NAME Morris                  XXXX@XXXX.XXX            XX/XX/XXXX
+88       Jeremy Jackson    EMP80290                     XX/XX/XXXXPERSON_NAMEKJ               PERSON_NAME               XXXX@XXXX.XXX            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+89         PERSON_NAME    EMP92129                     XX/XX/XXXX          Carol PERSON_NAMECH               PERSON_NAME            XX/XX/XXXX
+90        PERSON_NAMEEMP59421                     XX/XX/XXXXPERSON_NAMEPERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXX
+91     PERSON_NAME                     XX/XX/XXXX        Bryan Copeland                      BC            PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+92      Martin Atkinson    EMP42757                     XX/XX/XXXX   PERSON_NAMECR             PERSON_NAME                XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+93       Rachel Baldwin    EMP99618                     XX/XX/XXXX            Crystal Le                      CL              PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+94         Connor Lewis    EMP83172                     XX/XX/XXXX          PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+95         Stuart Bowen    EMP18659                     XX/XX/XXXX        PERSON_NAMEAW          PERSON_NAME                 XXXX@XXXX.XXX            XX/XX/XXXXHT-XXXXX-AL          XX/XX/XXXX
+96       PERSON_NAMEEMP25949                     XX/XX/XXXX      Kathleen Marquez                      KM         Mr. PERSON_NAMEXXXX@XXXX.XXX            XX/XX/XXXX
+97       PERSON_NAMEEMP73321                     XX/XX/XXXX     PERSON_NAMEAR             PERSON_NAME          XXXX@XXXX.XXX            XX/XX/XXXX
+98        PERSON_NAMEEMP13317                     XX/XX/XXXX        PERSON_NAME            XX/XX/XXXX
+99         PERSON_NAME    EMP14887                     XX/XX/XXXX        PERSON_NAME            XX/XX/XXXX         HT-XXXXX-AL          XX/XX/XXXX
+
+==================================================
+
+
+==================================================
+
+FILE 9: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_009.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+“GroupName": "Test-Group",
+“PolicyDocument": {
+"Statement": [
+{
+"Action": [
+'53:Get*",
+**:List®
+1,
+“Resource”: "*",
+"Effect": "Allow"
+ay
+"PolicyName": "**-ReadOnly-Policy”
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the JSON data you provided, representing an AWS IAM policy:
+
+**Overall Structure**
+
+This JSON defines an *** policy, which is a set of permissions that can be attached to IAM users, groups, or roles.
+
+**Key Components:**
+
+*   **`GroupName`**:  "Test-Group" - This indicates the IAM group to which this policy will be assigned.
+*   **`PolicyDocument`**:  This is the core of the policy, containing the actual permissions.
+    *   **`Statement`**:  An array of statements. Each statement defines a specific permission. In this case, there's only one statement.
+        *   **`Action`**:  `["**:Get*","**:List*"]` - This is the action that the policy allows.
+            *   `**:Get*`:  Allows the user/role to perform any `Get` operations on ** buckets and objects.  The `*` is a wildcard, meaning it covers all `Get` actions (e.g., `GetBucketAcl`, `GetObject`, `GetBucketLocation`).
+            *   `**:List*`: Allows the user/role to perform any `List` operations on ** buckets and objects. The `*` wildcard covers all `List` actions (e.g., `ListBucket`, `ListObjects`).
+    *   **`Resource`**: `"*" ` - This specifies the resources to which the policy applies.  `"*"` means the policy applies to all ** resources.
+    *   **`Effect`**: `"Allow"` - This determines how the policy is evaluated.  `"Allow"` means that if the conditions in the statement are met, the action is granted.
+
+*   **`PolicyName`**: `"**-ReadOnly-Policy"` - This is the name you assign to the policy.
+
+**In summary, this policy grants read-only access to all ** resources.** The user or role to which this policy is attached will be able to list and retrieve ** objects but cannot perform actions like uploading, deleting, or modifying objects.
+
+Let me know if you'd like me to elaborate on any specific aspect of this policy or explain how it relates to AWS IAM!
+
+Model: gemma3:4b
+Processing time: 62.70s
+
+==================================================
+
+FILE 10: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_010.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+Rule name
+default-
+allow-
+internal
+default-
+allow-ssh
+default-
+allow-rdp
+default-
+allow-icmp
+Direction
+ingress
+ingress
+ingress
+ingress
+Priority
+XXXXX
+XXXXX
+XXXXX
+XXXXX
+Source ranges
+XXX.XXX.XXX.XXX/9
+XXX.XXX.XXX.XXX/8
+XXX.XXX.XXX.XXX/8
+XXX.XXX.XXX.XXX/8
+Action
+allow
+allow
+allow
+allow
+Protocols and ports
+tcep:8-XXXXX
+udp :8-XXXXX
+icmp
+tep:22
+tep:3389
+icmp
+Description
+Permits incoming
+connections to VM
+instances from other
+instances within the
+same VPC network.
+Lets you connect to
+instances with tools
+such as ssh, scp, or
+sftp.
+Lets you connect to
+instances using the
+Microsoft Remote
+Desktop Protocol (RDP).
+Lets you use tools such
+as ping.
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, here's a breakdown of the firewall rules you've provided:
+
+**Summary**
+
+These rules are designed to allow incoming connections to Virtual Machines (VMs) within the same Virtual Private Cloud (VPC). They are configured to be permissive, allowing connections from any source.
+
+**CLIENT_ORGANIZATION**
+
+*   **default-allow-internal:**
+    *   **Direction:** Ingress (Inco**** connections)
+    *   **Priority:** XXXXX (High priority - these rules will be evaluated first)
+    *   **Source Ranges:** XXX.XXX.XXX.XXX/9 (This means any IP address within the XXX.XXX.XXX.XXX to XXX.XXX.XXX.XXX range)
+    *   **Action:** Allow
+    *   **Protocols and Ports:**
+        *   tcp:XXXXX
+        *   udp:XXXXX
+        *   icmp
+    *   **Description:** Permits incoming connections to VMs from within the same VPC network.
+
+*   **default-allow-ssh:**
+    *   **Direction:** Ingress
+    *   **Priority:** XXXXX
+    *   **Source Ranges:** XXX.XXX.XXX.XXX/0 (Any IP address)
+    *   **Action:** Allow
+    *   **Protocols and Ports:** tcp:22
+    *   **Description:** Lets you connect to instances with tools such as ssh, scp, or sftp.
+
+*   **default-allow-rdp:**
+    *   **Direction:** Ingress
+    *   **Priority:** XXXXX
+    *   **Source Ranges:** XXX.XXX.XXX.XXX/0
+    *   **Action:** Allow
+    *   **Protocols and Ports:** tcp:3389
+    *   **Description:** Lets you connect to instances using the Microsoft Remote Desktop Protocol (RDP).
+
+*   **default-allow-icmp:**
+    *   **Direction:** Ingress
+    *   **Priority:** XXXXX
+    *   **Source Ranges:** XXX.XXX.XXX.XXX/0
+    *   **Action:** Allow
+    *   **Protocols and Ports:** icmp
+    *   **Description:** Lets you use tools such as ping.
+
+**Important Considerations**
+
+*   **Security:** These rules are quite permissive. Allowing connections from XXX.XXX.XXX.XXX/0 (any IP address) is generally not recommended for production environments.  It's best practice to restrict source ranges to only the IP addresses or networks that genuinely need to access the VMs.
+*   **VPC Context:** These rules are specific to a VPC (Virtual Private Cloud).
+
+Do you have any specific questions about these rules or would you like me to elaborate on a particular aspect (e.g., how to make them more secure)?
+
+Model: gemma3:4b
+Processing time: 69.94s
+
+==================================================
+
+FILE 11: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_011.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+oe
+Check for a Duo Push
+Verify it's you by approving the notification...
+Sent to "Android" ( 1311)
+om 8
+Other options
+Need help?
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, here's what the image shows:
+
+**It's a Duo Push notification.**
+
+**What it's asking you to do:**
+
+*   **Approve the notification:**  It's prompting you to tap the "Approve" button to complete the Duo push authentication.
+
+**Important information:**
+
+*   **Message:** It's sent to "Android" (with a placeholder for the actual code, which is likely a series of numbers and letters). You need to enter this code into the Duo app on your phone to complete the authentication.
+
+Let me know if you have any other questions about Duo or this notification!
+
+Model: gemma3:4b
+Processing time: 49.77s
+
+==================================================
+
+FILE 12: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_012.pdf
+----------------------------------------
+Page 1:
+User Registration and         
+De-registration Process
+Page 2:
+User Access Management Process User Access Management Process
+1 Introduction 2 User registration
+The creation of new user accounts and the ongoing management of system access are 2.1 Registration process
+fundamental to the provision of effective information security. This process describes how
+user accounts and access rights should be requested, approved, created, amended, ‘The process of user registration is shown in the diagram below:
+reviewed and remaved in a secure way which complies with (CLIENT_ORGANIZATION] policies.
+This control applies to all systems, people and processes that constitute the organisation’s
+information systems, including board members, directors, employees, suppliers and other Use meres
+third parties who have access to [CLIENT_ORGANIZATION] systems. soot * feavest
+The following policies and procedures are relevant to this dacument: |
+© Access Control Policy
+* Mobile Device Policy Access request No indorm requester
+© Password Policy approved? of rejection
+Js
+Cenate user
+‘eccount
+‘Co**** secret
+euthentication
+wormation
+PERSON_NAME acces
+ight
+inform user _ Finish
+Figure 1: User registration process
+This process is described in more detail in the remainder of this section.
+Page 3:
+[CLIENT_ORGANIZATION] maintains and supports a wide variety of IT systems, and the level of 2.4 User account creation
+access required by individuals to these systems in order to perform their job role will vary
+widely across the organisation. Although the specifics of how user accounts are created will Once an approved request with sufficient details has been received, the [IT Service Desk]
+also vary across systems, the following basic process should always be followed. will manage the creation of the user account. User accounts should be created in line with
+the standards established and documented for that specific system. These will detail
+parameters such as account name format, initial program calls, assigned printers etc.
+2.2 Requesting access
+Access to IT systems should be requested via the [IT Service Desk]. Where online or 2.5 Allocation of secret authentication information
+electronic forms are available for specific systems, these should be used. In addition to
+system-specific details, the following should always be given: If passwordless authentication is not being used, the [IT Service Desk] will set an initial
+password. This will be a strong password according to published guidelines. A random
+* Name password generation tool may be used if available. The password will be set to expire upon
+* Role first logon, at which point the user will define a new one which is known only to them.
+* Department
+@ Contact Details If additional authentication tools are to be used (such as a multi-factor authentication
+2 Name of line manager method) or passwordless authentication is available, the appropriate procedure for the
+® Start date (and end date if applicable} setup of these items should be followed.
+For each system to which access is requested, further information may be required, such as:
+* Name of an existing user whose access should be duplicated {if new user is 2.6 User access rights assignment
+performing the same or similar role)
+@ = Modules required Once the user account has been created, access rights may be assigned to the account. For
+© Payroll or employee number most systems, this will be achieved by placing the user account in a specific group or role
+that is specified on the approved request.
+Where possible, requests for access should be pre-approved by the system owner or line
+manager before being submitted to the (IT Service Desk] via the approver’s email address.
+2.7 Informing the user
+2.3 Access approval or rejection Upon successful completion of account setup the [IT Service Desk] will inform the user of
+the account name via email along with instructions regarding how to set a strong password
+All requests for access to a specific system must be approved by the system owner. This will when changing the Initial one set by the [IT Service Desk] (if appropriate). The initial
+normally be a manager within the organisation with specific responsibility for the security password should be communicated by telephone (or other secure method) directly to the
+and use of that system. In some circumstances, the system owner may delegate authority to user after verifying the user's identity. If the user is not available, a message should be left
+approve requests to the emplayee’s line manager, but this fact must be recorded and for them to contact the [IT Service Desk]. The password should not be left as a message.
+verified on a regular basis.
+Ifa physical method of multi-factor {passwordless) authentication is also required (as
+No user accounts should be created without the required approval having been given. In the opposed to using an app), this will be sent to the user by internal or external post. For
+event that approval is refused, the [IT Service Desk] will inform the submitter of the request, external mail, a recorded delivery service should be used. Correct receipt of the token
+together with any reason given. It is up to the requester to discuss the rejection directly should be confirmed with the user by the [IT Service Desk] before communicating the initial
+with the system owner if required. password (unless passwordless authentication is to be used).
+Page 4:
+3 User access adjustment * Contact details
+© Name of line manager
+From time to time, there is a need to amend user access rights, often as a result of role * Date adjustment required from
+changes or promotions. This adjustment must be carried out in a secure manner to ensure I any of the above items ef informati changing (such of rok
+that the principles set out in the Access Control Policy are maintained. any of the above items of information are changing (such as a move of role or
+Princip! hd department) then both old and new details should be given.
+For each system to which access is requested to be amended, further information may be
+3.1 Access adjustment process required, such as:
+. ; © Name of an existing user whose access should be duplicated (if amended user will be
+The process for user access adjustment is shown below: PERSON_NAME
+performing the same or similar role)
+* Modules required
+© Payroll or employee number
+Usernecess
+Steet ———" adiustment PERSON_NAME Where possible, requests for adjustments to access rights should be pre-approved by the
+systern owner or line manager before being submitted to the [IT Service Desk] from the
+| approver’s email address.
+Access request NO. inform requester an
+approved? of rejection 3.3. Access approval or rejection
+fre All requests for adjustments ta access rights to a specific system must be approved by the
+system owner. This will normally be a manager within the organisation with specific
+responsibility for the security and use of that system. In some circumstances the system
+Aactgn access. owner may delegate authority to approve requests to the employee's line manager, but this
+ws fact must be recorded and verified on a regular basis.
+| No access rights should be amended without the required approval having been given. In
+the event that approval is refused, the [IT Service Desk] will inform the submitter of the
+request, together with any reason given. It is up to the requester to discuss the rejection
+form user —_—_ Finish directly with the system owner if required.
+Hgure 2: Access adjustment process
+3.4 Adjust access rights
+32 U dj Once the request has been approved, the request should be allocated ta a member of the
+-2 User access adjustment request [IT Service Desk] team to assign the amended access rights to the account. For most
+Requests for adjustments to user access to IT systems should be sent to the [IT Service systems this wil \be achieved by placing the user account in a different group or role as
+Desk]. Where online or electronic forms are available for specific systems, these should be pes PP ‘quest.
+used. In addition to system-specific details, the following should always be given:
+« Name
+« Role
+* Department
+Page 5:
+3.5 Informing the user 4 User deregistration
+Upon successful completion of the adjustment request the [{T Service Desk] will inform the When an emplayee or contractor leaves the organisation, it is vital that access controls are
+user via email. updated promptly to avoid a situation where an unauthorised person retains access to our
+systems.
+If a physical method of multifactor (or passwordless) authentication is also required {as
+opposed to using an app), this will be sent to the user by internal or external post. For
+external mail, a recorded delivery service should be used. Correct receipt of the token
+should be confirmed with the user by the [IT Service Desk] before communicating the initial 4.1 Deregistration process
+password (unless passwordless authentication is to be used).
+This will be achieved using the process below:
+Deregktration
+PERSON_NAME —
+upon
+leming
+Schedule task to
+Assess urgency dieabte user account
+[rresine
+Owuble user
+acourt
+PERSON_NAME suthenticatson
+omens _— PERSON_NAME
+Figure 3: User deregtstration process
+4.2 Deregistration request
+It is the responsibility of users and their managers to inform the (IT Service Desk] in a timely
+manner when employees leave the organisation and so no longer need access to IT systems.
+As much advance notice as possible should be given. In those circumstances where an
+employee has been involuntarily terminated at short notice, the [IT Service Desk] must be
+informed by telephone immediately.
+Page 6:
+4.3 Assess urgency 5 Management of privileged access rights
+The [IT Service Desk] will assess the urgency of the deregistration request based on the Privileged access rights are those that involve a higher level of system access than a typical
+information provided and will decide whether to disable the user account straight away or user. This includes “raot” or “domain administrator” access and various types of supervisory
+to wait until the user leaves the organisation. In general, for unfriendly terminations, access within application systems and databases.
+deregistration will be completed immediately whereas, for voluntary resignations, it will be
+done on XX/XX/XXXX the person leaves. The process for managing privileged access rights is basically the same as for other types of
+users but the approval and review aspects should be treated much more rigorously, The
+number of people with such rights should be carefully controlled, and rights should be
+removed as soon as they are no longer required.
+4.4 Disable user account
+The following factors should be considered by the system owner as part of the approval
+For most systems, the [IT Service Desk] will take the initial step of disabling the user account criteria for such requests:
+rather than deleting it. This will prevent access by the user but will retain all information
+associated with the account and its data. © Why does the user need privileged access rights?
+«Is there an alternative way to achieve the desired end result without granting
+Ata later date and with the system owner's permission, the account may be deleted once privileged access rights?
+any outstanding issues have been resolved, © Does the user have the necessary training and expertise to avoid mistakes when
+using the privileged access rights?
+All user accounts associated with the user in question should be disabled even if Single Sign «For how long are the rights needed?
+On ($80) is in place, for example if the user is in Finance, access to Entra ID and the Finance
+system (and any other systems the user has an account on) should be disabled. This is ****er who requires privileged access rights such as domain admin should request that a
+necessary to prevent the account being used by someone who still has access to the separate user account be created with these rights (for example “PERSON_NAME”).
+network in future. Accounts should be disabled in order of importance, such as the Finance Under no circumstances should the password for the default admin user account be issued.
+system account before an email account. If the need for access is temporary, an expiry date should be set on the user account when it
+is created.
+When creating such accounts, it should be emphasised to the user that they are only for use
+4.5 Retrieve authentication token when a higher level of permissions is needed. Their normal, lower access level, account
+should be used most of the time.
+If the deregistered user has any access-related hardware, such as an authentication token,
+this should be retrieved as part of the termination process and returned to the [IT Service The need for accounts to hold privileged access rights will be reviewed according to the
+Desk]. standard review process but may be performed on a more frequent basis depending on the
+sensitivity of the system(s) involved.
+Page 7:
+6 Access reviews The scope of the review shuld be defined in terms of the systems and networks that will be
+covered,
+rope rr erm ent tend mca he rhecuna tte ape and PERSON_NAME to besevened soe nfo of he
+Ps v v " intention to carry out a review so that adequate time can be allocated to complete it within
+the target timescale.
+. The [IT Department] will create a listing all authorised users of each system together with
+6.1 Access review process q - nan aan .
+their current level of access. This should, as a minimum, state the following information:
+» Name of system
+© Username
+Start — oer ope © User role title
+review e User department
+«User account name
+| © Date of user account creation
+© User role(s) assigned
+Inform system * Additional access rights assigned
+owned(s) © Are privileged access rights assigned to this account?
+| Where appropriate, supporting information such as the specific permissions associated with
+each role defined in the system should also be provided.
+Createuser The report should be produced in electronic form (either spreadsheet or text document}
+access report and securely emailed to the system owner.
+| The list will be reviewed by the system owner, and any accounts that should not be
+maintained will be identified.
+Send reportto System owners will look to identify:
+system owner(s)
+© LOCATION_NAME who should not have access (for example leavers)
+| User accounts with more access than required by the role
+¢ User accounts with incorrect role allocations
+System owner's} User accounts that do not provide adequate identification, such as generic or shared
+Feview report end accounts
+Kentify chenges *  Anyother issues that do not comply with the organisation's access control policy
+| Al**** of issues identified should be compiled by the system owner and sent to the
+{information Security Manager]. Any issues that appear to be urgent should be flagged as
+such without delay so that prompt action may be taken.
+Actions identified from the review should be prioritised and carried out according to their
+Figure 4: Access review process urgency.
+
+==================================================
+
+FILE 13: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_013.png
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+aws iam create-role \
+--role-name Test-Role \
+--assume-role-policy-document file://Test-RoLe-Trust-Policy.json \
+--max-session-duration 7200
+Dutput:
+{
+"Role": {
+"path":
+: "Test-Role",
+"AKIATOSFODNN7EXAMPLE",
+am: :XXX-XXX-XXXX:role/Test-Role",
+@23-05-24T23:50:25+00:00",
+‘AssumeRolePolicyDocument": {
+"Version": "XX/XX/XXXX",
+"Statement": [
+{
+"Sid": "Statement1"
+"Effect": "Allow",
+"Principal": {
+"AWS": “arn:aws: iam: :XXX-XXX-XXXX: root"
+is)
+"Action": "sts:AssumeRole"
+}
+]
+t
++
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, let's break down the JSON output from the `aws create-role` command. This JSON represents the configuration of an AWS IAM Role.
+
+**Key Elements and Their Meanings:**
+
+*   **`"Role"`: { ... }**
+    *   `"Path"`: `/` -  This is the path within the AWS resource hierarchy where this role is defined.  `/` means it's a root-level role.
+    *   `"RoleName"`: `"Test-Role"` - This is the name you've given to the role.  This is how you'll refer to it in your AWS resources.
+    *   `"RoleId"`: `"AKIAIOSFDNN7EXAMPLE"` - This is the unique identifier assigned to the role by AWS.  It's a long, random string.
+    *   `"Arn"`: `"arn:aws:iamXXX.XXX.XXX.XXXXXX-XXX-XXXX:role/Test-Role"` - This is the Amazon Resource Name (ARN) of the role. It's the fully qualified identifier that uniquely identifies the role within your AWS account and region.
+    *   `"CreateDate"`: `"XX/XX/XXXX"` - The date and time when the role was created.
+    *   `"AssumeRolePolicyDocument"`: { ... } -  This is the JSON document that defines the permissions granted to users or other roles when they assume this role.  Let's look at what's inside it.
+
+*   **`"Version"`: `"XX/XX/XXXX"`** - This specifies the version of the *** policy language used in the `AssumeRolePolicyDocument`.
+
+*   **`"Statement"`: [ ... ]** - This is an array of statements.  Each statement defines a permission rule. In this case, there's only one statement.
+
+    *   `"Sid"`: `"Statement1"` - A statement identifier (SID) for the statement.  SIDs are used to uniquely identify statements within a policy.
+    *   `"Effect"`: `"Allow"` - This indicates that the statement grants permissions.
+    *   `"Principal"`: `{ "AWS": "arn:aws:iamXXX.XXX.XXX.XXXXXX-XXX-XXXX:root" }` - This specifies who is granted the permission. In this case, it's the root account of your AWS account.  This means any user or role that assumes this role will have access to resources within your entire AWS account.
+    *   `"Action"`: `"sts:AssumeRole"` - This is the specific action that is allowed.  `sts:AssumeRole` is the action that allows another entity (a user, role, or service) to assume this role.
+
+**In Summary**
+
+This JSON defines an IAM role named "Test-Role" with the ID AKIAIOSFDNN7EXAMPLE.  It allows any user or role to assume this role, and that assumption grants access to resources within your entire AWS account.
+
+**Important Considerations:**
+
+*   **Security:**  Granting access to the root account is a very powerful permission.  In a production environment, you should generally restrict access to the root account and use more granular policies to limit the permissions granted to roles.
+*   **Trust Relationships:**  This role establishes a "trust relationship."  It specifies which entities (principals) are allowed to assume this role.
+
+If you have a specific use case in mind, let me know, and I can provide more tailored advice. Do you want to understand how to use this role in a script, or are you interested in how to create more restrictive policies?
+
+Model: gemma3:4b
+Processing time: 75.09s
+
+==================================================
+
+FILE 14: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_014.pptx
+----------------------------------------
+Slide 1:
+CLIENT_ORGANIZATION and LOCATION_NAME
+
+------------------------------
+
+Slide 2:
+
+------------------------------
+
+Slide 3:
+Revision History
+Table:
+Revision | Full Name | Email | Reviewed Date | Changes Made (If Any)
+1.0 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Initial draft of network topology diagram created.
+1.1 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | Updated IP addressing scheme and VLAN assignments.
+1.2 | Aisha Rahman | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Reviewed and approved existing diagram.
+1.3 | PERSON_NAME | XXXX@XXXX.XXX | XX/XX/XXXX | No changes. Confirmed compliance with updated security policies.
+
+------------------------------
+
+
+==================================================
+
+FILE 15: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_015.jpg
+----------------------------------------
+=== OCR EXTRACTED TEXT ===
+» All services >
+Conditional Access | Policies
+Azure Active Directory
+* La a ++ New policy Q What if () Refresh | © Got feedback?
+Policies
+@ Insights and reporting PERSON_NAME
+XX. Diagnose and solve problems Require MFA for admins
+Block legacy authentication
+Manage
+Require MFA for Azure management
+<> Named locations
+Require MFA for all users
+{= Custom controls (Preview)
+&% Terms of use
+4® VPN connectivity
+Classic policies
+Troubleshooting + Support
+@ Virtual assistant (Preview)
+& New support request
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Here's a breakdown of the screenshot you provided, focusing on the Conditional Access policies:
+
+**What's Shown:**
+
+*   **Conditional Access Policies:** This is the main area where you create and manage Conditional Access policies in Azure Active Directory.
+*   **Policy Names:** The screenshot displays the names of several available Conditional Access policies:
+    *   "Require MFA for admins"
+    *   "Block legacy authentication"
+    *   "Require MFA for Azure management"
+    *   "Require MFA for all users"
+
+**Purpose of These Policies:**
+
+These policies are designed to enhance the security of your Azure Active Directory environment by enforcing Multi-Factor Authentication (MFA).  Here's a brief explanation of each:
+
+*   **Require MFA for admins:**  This policy mandates that all administrators must use MFA to sign in.
+*   **Block legacy authentication:** This policy prevents users from using older authentication methods (like POP3 or IMAP) which are less secure.
+*   **Require MFA for Azure management:** This policy enforces MFA for users accessing Azure management portals (like the Azure portal).
+*   **Require MFA for all users:** This is a broad policy that requires all users to use MFA for *any* access to your organization's resources.
+
+**CLIENT_ORGANIZATION:**
+
+Conditional Access policies are a crucial part of securing your Azure Active Directory environment.  They allow you to define granular rules for who can access what resources and under what conditions, with MFA being a key component of those rules.
+
+Would you like me to:
+
+*   Explain how to create a Conditional Access policy?
+*   Describe the different settings available within a Conditional Access policy?
+
+Model: gemma3:4b
+Processing time: 59.08s
+
+==================================================
+

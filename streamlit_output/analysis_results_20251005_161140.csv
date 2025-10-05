@@ -1,0 +1,5 @@
+file_number,original_file_path,file_type,processing_status,pii_detection_count,pii_detection_status,analysis_status,iam_policies_count,firewall_rules_count,ids_logs_count,vulnerabilities_count,network_configs_count
+1,C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_007.png,.png,success,2,success,success,0,0,0,0,0
+2,C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_009.png,.png,success,2,success,success,1,0,0,0,0
+3,C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_010.png,.png,success,10,success,success,0,0,0,0,0
+4,C:\Users\HP\AppData\Local\Temp\tmp007d155p\File_011.png,.png,success,0,success,success,0,0,0,0,0

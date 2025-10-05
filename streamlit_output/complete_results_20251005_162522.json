@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "generated_at": "2025-10-05T16:25:22.114860",
+    "total_files": 1,
+    "project": "VIT Campus Connect - Cyber Simulation Exercise"
+  },
+  "processing_results": [
+    {
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpd___n6i_\\File_003.png",
+      "file_type": ".png",
+      "content": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "ocr_text": "VISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\",
+      "image_description": "",
+      "description_status": "skipped",
+      "description_error": "Image descriptions disabled by user",
+      "status": "success"
+    }
+  ],
+  "pii_results": [
+    {
+      "original_text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\n22/03/23\nKate Hopkins\nSales Demo\nREASON FOR VISIT\n02\n22/03/23\nKelly Van Stom\nMeeting James ttodden|\n\\\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "masked_text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\nXX/XX/XXXX\nPERSON_NAME\nSales Demo\nREASON FOR VISIT\n02\nXX/XX/XXXX\nPERSON_NAME James ttodden|\n\\\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "detected_items": [
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/23",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            94,
+            102
+          ],
+          "confidence": 0.95
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kate Hopkins",
+          "masked": "PERSON_NAME",
+          "position": [
+            103,
+            115
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "person",
+          "subtype": "PERSON",
+          "original": "Kelly Van Stom\nMeeting",
+          "masked": "PERSON_NAME",
+          "position": [
+            156,
+            178
+          ],
+          "confidence": 0.85
+        },
+        {
+          "type": "date_time",
+          "subtype": "DATE_TIME",
+          "original": "22/03/23",
+          "masked": "XX/XX/XXXX",
+          "position": [
+            147,
+            155
+          ],
+          "confidence": 0.6
+        }
+      ],
+      "detection_count": 4,
+      "status": "success"
+    }
+  ],
+  "analysis_results": [
+    {
+      "text": "=== OCR EXTRACTED TEXT ===\nVISITORS LOG BOOK - PLEASE SIGN IN\nMONTH: MAYch\nYEAR: 2023\nol\nDATE\nXX/XX/XXXX\nPERSON_NAME\nSales Demo\nREASON FOR VISIT\n02\nXX/XX/XXXX\nPERSON_NAME James ttodden|\n\\\n\n=== IMAGE DESCRIPTION ===\nImage descriptions disabled by user",
+      "analysis": {
+        "iam_policies": {
+          "policies_found": [],
+          "permissions": [],
+          "resources": [],
+          "actions": [],
+          "conditions": [],
+          "principals": []
+        },
+        "firewall_rules": {
+          "rules_found": [
+            {
+              "rule": "02",
+              "position": [
+                145,
+                147
+              ]
+            }
+          ],
+          "actions": [],
+          "protocols": [
+            {
+              "protocol": "IP",
+              "position": [
+                204,
+                206
+              ]
+            },
+            {
+              "protocol": "ip",
+              "position": [
+                226,
+                228
+              ]
+            }
+          ],
+          "source_ips": [],
+          "dest_ips": [],
+          "ports": [
+            {
+              "port": "2023",
+              "position": [
+                81,
+                85
+              ]
+            },
+            {
+              "port": "02",
+              "position": [
+                145,
+                147
+              ]
+            }
+          ],
+          "services": []
+        },
+        "ids_ips_logs": {
+          "log_entries": [],
+          "timestamps": [],
+          "severities": [],
+          "signatures": [],
+          "source_ips": [],
+          "dest_ips": [],
+          "attack_types": [],
+          "rule_names": []
+        },
+        "network_config": {
+          "vlans": [],
+          "subnets": [],
+          "gateways": [],
+          "dns_servers": [],
+          "dhcp_pools": [],
+          "access_lists": [],
+          "routes": []
+        },
+        "vulnerabilities": {
+          "cves": [],
+          "cvss_scores": [],
+          "severities": [],
+          "vulnerability_types": [],
+          "affected_software": []
+        },
+        "summary": {
+          "total_iam_policies": 0,
+          "total_firewall_rules": 1,
+          "total_ids_logs": 0,
+          "total_vulnerabilities": 0,
+          "total_network_configs": 0,
+          "security_insights": [
+            "Identified 1 firewall rules"
+          ]
+        }
+      },
+      "status": "success"
+    }
+  ],
+  "llm_analysis_results": [
+    {
+      "status": "success",
+      "file_name": "File_003",
+      "file_type": ".png",
+      "file_path": "C:\\Users\\HP\\AppData\\Local\\Temp\\tmpd___n6i_\\File_003.png",
+      "file_description": "This file appears to be a visitor log for a location, likely a sales demonstration or similar event. It’s a handwritten logbook with fields for date, person's name, reason for visit, and a signature area. The format suggests a manual record-keeping system for tracking visitors.",
+      "key_findings": [
+        "Potential Access Control Weakness: The handwritten format and lack of a formal system raise concerns about access control. There’s no indication of any automated logging, biometric authentication, or other digital access control mechanisms.",
+        "Data Protection Vulnerability: The handwritten nature of the logbook presents a significant data protection vulnerability.  The document is susceptible to alteration, loss, or unauthorized access.",
+        "Lack of Authentication: There's no visible mechanism for verifying the identity of visitors.  The log relies solely on the visitor signing in, which is a weak authentication method.",
+        "Existing Security Feature: The presence of a 'VISITORS LOG BOOK' suggests an attempt to document visitor activity, which is a basic operational security measure.",
+        "Compliance Risk:  Without a standardized format or audit trail, compliance with potential data privacy regulations (e.g., GDPR, CCPA) is questionable. The lack of a unique identifier for each entry is a significant issue.",
+        "Operational Security Risk: The manual process of recording visitors is prone to human error, potentially leading to inaccurate records and missed security incidents."
+      ],
+      "raw_llm_response": "```json\n{\n    \"file_description\": \"This file appears to be a visitor log for a location, likely a sales demonstration or similar event. It’s a handwritten logbook with fields for date, person's name, reason for visit, and a signature area. The format suggests a manual record-keeping system for tracking visitors.\",\n    \"key_findings\": [\n        \"Potential Access Control Weakness: The handwritten format and lack of a formal system raise concerns about access control. There’s no indication of any automated logging, biometric authentication, or other digital access control mechanisms.\",\n        \"Data Protection Vulnerability: The handwritten nature of the logbook presents a significant data protection vulnerability.  The document is susceptible to alteration, loss, or unauthorized access.\",\n        \"Lack of Authentication: There's no visible mechanism for verifying the identity of visitors.  The log relies solely on the visitor signing in, which is a weak authentication method.\",\n        \"Existing Security Feature: The presence of a 'VISITORS LOG BOOK' suggests an attempt to document visitor activity, which is a basic operational security measure.\",\n        \"Compliance Risk:  Without a standardized format or audit trail, compliance with potential data privacy regulations (e.g., GDPR, CCPA) is questionable. The lack of a unique identifier for each entry is a significant issue.\",\n        \"Operational Security Risk: The manual process of recording visitors is prone to human error, potentially leading to inaccurate records and missed security incidents.\"\n    ]\n}\n```",
+      "analysis_timestamp": "2025-10-05T16:25:22.106692"
+    }
+  ]
+}

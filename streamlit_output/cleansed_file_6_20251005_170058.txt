@@ -1,0 +1,62 @@
+Original File: C:\Users\HP\AppData\Local\Temp\tmp0lgof1lb\Files/File_006.jpg
+File Type: .jpg
+Processing Date: 2025-10-05T17:00:58.762437
+==================================================
+
+CLEANSED CONTENT:
+--------------------
+=== OCR EXTRACTED TEXT ===
+GS %
+ou Onna fag
+‘ee Sele
+
+=== IMAGE DESCRIPTION (Gemma3) ===
+Okay, let's analyze the screenshot of the 10-Strike Network Monitor Pro interface.
+
+**Overall Impression:**
+
+This screenshot shows the main interface of the 10-Strike Network Monitor Pro, a software application used for monitoring and managing IP cameras and network devices.  It appears to be in a monitoring mode.
+
+**Key Elements and Information:**
+
+*   **Top Navigation Bar:**
+    *   "Home":  Likely returns to the main dashboard.
+    *   "Hosts":  Allows you to view and manage connected devices.
+    *   "Checks":  Displays the status of configured checks (e.g., camera status, network checks).
+    *   "Monitoring Logs": Displays the historical logs of the system.
+    *   "Groups":  Allows you to organize devices into groups for easier management.
+    *   "Reports":  Generates reports based on the monitoring data.
+    *   "View":  Offers various viewing options (e.g., grid view, list view).
+    *   "Help": Provides documentation and support.
+
+*   **Main Content Area:** This area displays the live video feeds from the connected IP cameras.
+    *   Each camera is represented by a thumbnail image.
+    *   The "RTSP" label indicates that the cameras are streaming video using the Real-Time Streaming Protocol.
+
+*   **Bottom Left Corner:**
+    *   "Number of live cameras: XXXXX. Total hosts: 71" - Shows the number of live cameras and total hosts.
+
+*   **Bottom Right Corner:**
+    *   "Database address: localhost" - Indicates that the monitoring software is using the local database.
+
+**In Summary:**
+
+This is a typical view of the 10-Strike Network Monitor Pro, showcasing the live video streams from multiple IP cameras.  It's a tool used for security surveillance, network monitoring, and potentially other applications that require real-time video streaming.
+
+Do you have any specific questions about this screenshot, such as:
+
+*   What features are highlighted?
+*   How do you use the software?
+*   What is the purpose of the different labels (e.g., RTSP)?
+
+Model: gemma3:4b
+Processing time: 62.35s
+
+PII DETECTION SUMMARY:
+-------------------------
+Total Detections: 1
+
+Detected Items:
+- Type: zip_code
+  Original: 23576
+  Masked: XXXXX
