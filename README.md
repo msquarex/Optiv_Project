@@ -133,6 +133,13 @@ The system detects and masks the following types of sensitive information:
 - **Client Information**: Company names, organization identifiers
 - **Dates**: Birth dates, sensitive timestamps
 
+#### Advanced PII Tokenization & Encryption
+- **Unique Placeholders**: Replaces detected PII with unique UUID-based placeholders (e.g., `<PII_TOKEN_uuid>`).
+- **Secure Encryption**: Encrypts the original PII securely using the authenticated **ChaCha20-Poly1305** algorithm.
+- **Key Generation**: A secure 32-byte encryption key is derived from an admin password using PBKDF2 HMAC with SHA256 (480,000 iterations).
+- **Encrypted PII Table**: Maintains a placeholder-to-encrypted-PII mapping table, ensuring the original sensitive data is not stored in plaintext anywhere.
+- **Decryption**: Supports reverting placeholders back to their original form (decrypting the original files) using the designated admin password.
+
 ### AI-Powered Image Description
 
 The system now includes advanced AI capabilities for image analysis using the Gemma3 model:

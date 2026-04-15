@@ -8,6 +8,8 @@ import logging
 from typing import Dict, List, Any, Optional, Callable
 from datetime import datetime
 import time
+import json
+import os
 
 from file_processor import FileProcessor
 from pii_detector import PIIDetector
@@ -224,6 +226,26 @@ class CyberSimulationWorkflow:
             output_files = self.output_generator.generate_all_outputs(
                 processing_results, pii_results, analysis_results, llm_analysis_results
             )
+            
+            # Additional step: Save PII mapping table
+            pii_mapping = {}
+            for result in pii_results:
+                if result['status'] == 'success':
+                    for item in result.get('detected_items', []):
+                        placeholder = item.get('placeholder')
+                        if placeholder:
+                            pii_mapping[placeholder] = {
+                                'nonce': item.get('encrypted_nonce'),
+                                'ciphertext': item.get('encrypted_ciphertext')
+                            }
+            
+            mapping_path = os.path.join(self.output_generator.output_dir, "pii_mapping.json")
+            with open(mapping_path, "w") as f:
+                json.dump(pii_mapping, f, indent=4)
+            logger.info(f"Saved PII mapping to {mapping_path}")
+            # Ensure it is exposed to the frontend
+            output_files['pii_mapping'] = mapping_path
+            
             self.progress_tracker.complete_step("Generating Outputs")
             
             self.processing_stats['end_time'] = datetime.now()

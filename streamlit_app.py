@@ -26,10 +26,12 @@ sys.path.append('src')
 
 # Import our modules
 from main_workflow import CyberSimulationWorkflow
+from crypto_utils import CryptoUtils
+from cryptography.exceptions import InvalidTag
 
 # Page configuration
 st.set_page_config(
-    page_title="VIT Campus Connect - File Processor",
+    page_title="PIDE: Private Information Detection and Encryption",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -465,12 +467,80 @@ def display_llm_analysis_table(llm_results: List[Dict[str, Any]]):
                 mime="text/csv"
             )
 
+def display_admin_recovery(results: Dict[str, Any]):
+    """Display the admin recovery panel to decrypt encrypted PII placeholders."""
+    st.markdown("---")
+    st.subheader("🔐 Admin Panel: PII Recovery")
+    st.markdown("Enter the administrator password to decrypt and restore the original PII content in the documents.")
+    
+    mapping_path = results.get('output_files', {}).get('pii_mapping')
+    if not mapping_path or not os.path.exists(mapping_path):
+        st.warning("No encrypted PII mapping found. Recovery is unavailable.")
+        return
+        
+    password = st.text_input("Enter Admin Password", type="password", key="admin_pass")
+    
+    if st.button("Decrypt and Recover PII", type="primary"):
+        if not password:
+            st.error("Please enter a password.")
+            return
+            
+        try:
+            with open(mapping_path, 'r') as f:
+                pii_mapping = json.load(f)
+                
+            if not pii_mapping:
+                st.info("No PII was detected/encrypted in this session.")
+                return
+                
+            # Attempt to decrypt all items
+            recovered_mapping = {}
+            for placeholder, encrypted_data in pii_mapping.items():
+                nonce = encrypted_data['nonce']
+                ciphertext = encrypted_data['ciphertext']
+                
+                # if any decryption fails, it will jump to except block
+                original_text = CryptoUtils.decrypt_data(password, nonce, ciphertext)
+                recovered_mapping[placeholder] = original_text
+                
+            # If we reach here, password is correct and all mapped items decrypted.
+            st.success("✅ Password correct. Decryption successful!")
+            
+            st.markdown("### Recovered Content")
+            # Replace placeholders in the masked content of each processed file
+            for i, pii_result in enumerate(results['pii_results']):
+                if pii_result['status'] == 'success':
+                    # Get the masked text
+                    recovered_text = pii_result.get('masked_text', '')
+                    for placeholder, original_value in recovered_mapping.items():
+                        recovered_text = recovered_text.replace(placeholder, original_value)
+                        
+                    file_name = "Unknown"
+                    if i < len(results['processing_results']):
+                        proc_result = results['processing_results'][i]
+                        file_name = os.path.basename(proc_result.get('file_path', f'File {i+1}'))
+                        
+                    with st.expander(f"🔓 Recovered File: {file_name}", expanded=False):
+                        st.text_area("Original Content", recovered_text, height=300, disabled=True, key=f"rec_{i}")
+                        st.download_button(
+                            label=f"📥 Download Recovered {file_name}",
+                            data=recovered_text,
+                            file_name=f"recovered_{file_name}.txt",
+                            mime="text/plain",
+                            key=f"down_{i}"
+                        )
+                        
+        except InvalidTag:
+            st.error("❌ Incorrect Admin Password. Decryption failed.")
+        except Exception as e:
+            st.error(f"❌ Error during recovery: {str(e)}")
+
 def main():
     """Main Streamlit application"""
     
     # Header
-    st.markdown('<h1 class="main-header">🛡️ VIT Campus Connect - File Processor</h1>', unsafe_allow_html=True)
-    st.markdown("Upload files to detect PII, mask sensitive information, and analyze security content.")
+    st.markdown('<h1 class="main-header">🛡️PIDE: Private Information Detection and Encryption</h1>', unsafe_allow_html=True)
+    st.markdown("Upload files to detect sensitive information, encrypt sensitive information, and analyze security content.")
     
     # Initialize workflow
     workflow = initialize_workflow()
@@ -724,6 +794,9 @@ def main():
         
         st.markdown('</div>', unsafe_allow_html=True)
         
+        # Admin Recovery Panel
+        display_admin_recovery(results)
+        
         # Clear results button
         if st.button("🗑️ Clear Results", use_container_width=True):
             if 'processing_results' in st.session_state:
@@ -738,8 +811,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #666;'>
-        <p>🛡️ VIT Campus Connect - Cybersecurity File Processing System</p>
-        <p>Upload individual files or entire folders to automatically detect PII, mask sensitive data, and analyze security content</p>
+        <p>🛡️PIDE: Private Information Detection and Encryption</p>
+        <p>Upload individual files or entire folders to automatically detect sensitive data, encrypt sensitive data, and analyze security content</p>
     </div>
     """, unsafe_allow_html=True)
 
